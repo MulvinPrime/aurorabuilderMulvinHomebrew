@@ -1,7 +1,7 @@
 # aurorabuilderMulvinHomebrew
 additional content to extend [Aurora](https://aurorabuilder.com/), by MulvinPrime
 
-index url: https://raw.githubusercontent.com/yourgithubaccount/aurorabuilderMulvinHomebrew/master/MulvinPrime.index
+index url: https://raw.githubusercontent.com/https://github.com/MulvinPrime/aurorabuilderMulvinHomebrew/master/MulvinPrime.index
 
 ---
 
