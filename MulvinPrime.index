@@ -3,7 +3,7 @@
 	<info>
 		<name>MulvinPrime's</name>
 		<update version="1.0.0">
-			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com/yourgithubaccount/aurorabuilderMulvinHomebrew/master/MulvinPrime.index" />
+			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/master/user-MulvinPrime.index" />
 		</update>
 	</info>
 	<files>
