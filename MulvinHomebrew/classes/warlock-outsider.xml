@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="warlock-outsider.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\warlock-outsider.xml"/>
+		</update>
+	</info>
+
+	<element name="The Outsider" type="Archetype" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_OUTSIDER">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<p>You wake up in your bed with a strange cold feeling. <em>This is not your world.</em> This is a place the time doesn't exist, a place where no living thing mattered, a place that is the end of all things, and the beginning. A black-eyed man adorned in an older-looking suit, with cold shadowy vapors eminating from his body, appears:</p> 
+			<p><em>There are greater forces that man call magic, greater places they say that everyone is immortal. But none of them matter here. This is the Void. I am the Outsider, I know and watch all creatures since the beginning. Bacuase I've deemed you interesting, my forces will serve your will. What I have given you is up to you how to use. Know that I will be watching with great interest. Now I return you to your world.</em></p>
+			<p>When you woke up, a new power was present within you. Some say the Outsider is the god of <em>all</em> secrets, time and universes. But in a way, no living can truly understand what he is. For now, it seems no man can perceive who he really is: a bored god? a demon? Or is he just a man? Whatever he may be, the Outsider is far beyond the words used to describe him.</p>
+			<div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_EXPANDED_SPELL_LIST"/>
+            <div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_VOIDS_CHOSEN"/>
+			<div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BONECHARMS"/>
+			<div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BLINK"/>
+			<div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_SHADOW_WALK"/>
+			<div element="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BEND_TIME"/>
+			<h5 class="caption">Bonecharms</h5>
+			<table>
+		        <thead>
+			        <tr><td>Bonecharm</td><td>Rarity</td></tr>
+		        </thead>
+        		<tr><td>Accommodating Host</td><td>Very Rare</td></tr>
+		        <tr><td>Acrobat</td><td>Uncommon</td></tr>
+        		<tr><td>Agile Recovery</td><td>Uncommon</td></tr>
+        		<tr><td>Agility</td><td>Uncommon</td></tr>
+        		<tr><td>Beast Scent</td><td>Uncommon</td></tr>
+        		<tr><td>Bird of Prey</td><td>Rare</td></tr>
+        		<tr><td>Blast Resistance</td><td>Rare</td></tr>
+	        	<tr><td>Cornered Animal</td><td>Very Rare</td></tr>
+        		<tr><td>Danger Sense</td><td>Rare</td></tr>
+        		<tr><td>Duelist's Skill</td><td>Rare</td></tr>
+        		<tr><td>Efficient Sleeper</td><td>Rare</td></tr>
+        		<tr><td>Exacting Aim</td><td>Rare</td></tr>
+        		<tr><td>Fencer</td><td>Uncommon</td></tr>
+        		<tr><td>Forceful Throw</td><td>Rare</td></tr>
+        		<tr><td>Leech Cuts 1</td><td>Uncommon</td></tr>
+        		<tr><td>Leech Cuts 2</td><td>Rare</td></tr>
+        		<tr><td>Leech Cuts 3</td><td>Very Rare</td></tr>
+        		<tr><td>Light as Shadow</td><td>Rare</td></tr>
+	        	<tr><td>Lucky Jam</td><td>Very Rare</td></tr>
+        		<tr><td>Read Magic</td><td>Uncommon</td></tr>
+        		<tr><td>Robust</td><td>Very Rare</td></tr>
+        		<tr><td>Scavenger</td><td>Legendary</td></tr>
+        		<tr><td>Secret Keeper</td><td>Uncommon</td></tr>
+        		<tr><td>Seeker</td><td>Uncommon</td></tr>
+	        	<tr><td>Snap Reaction</td><td>Legendary</td></tr>
+        		<tr><td>Swift Shadow</td><td>Rare</td></tr>
+        		<tr><td>Throwing Hand</td><td>Uncommon</td></tr>
+        		<tr><td>Twist of Fortune 1</td><td>Rare</td></tr>
+		        <tr><td>Twist of Fortune 2</td><td>Very Rare</td></tr>
+	        	<tr><td>Undertaker</td><td>Uncommon</td></tr>
+		        <tr><td>Unnerving Target 1</td><td>Rare</td></tr>
+		        <tr><td>Unnerving Target 2</td><td>Very Rare</td></tr>
+		        <tr><td>Unsteady Hand</td><td>Legendary</td></tr>
+		        <tr><td>Welcoming Host</td><td>Rare</td></tr>
+		        <tr><td>Void Favor</td><td>Legendary</td></tr>
+		        <tr><td>Whirlwind</td><td>Very Rare</td></tr>
+	        </table>
+		</description>
+		<sheet display="false">
+			<description>Your patron is the Outsider, who's origin and motives are unknown. The only thing confirmed about him is that people believe he exists.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_EXPANDED_SPELL_LIST" level="1" />
+            <grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_VOIDS_CHOSEN" level="1" />
+			<grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BONECHARMS" level="1" />
+			<grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BLINK" level="6" />
+			<grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_SHADOW_WALK" level="10" />
+			<grant type="Archetype Feature" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BEND_TIME" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_EXPANDED_SPELL_LIST">
+		<description>
+			<p>The Outsider lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+			<h5 class="caption">OUTSIDER EXPANDED SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>detect magic, sleep</em></td></tr>
+				<tr><td>2nd</td><td><em>misty step, detect thoughts</em></td></tr>
+				<tr><td>3rd</td><td><em>conjure animals, haste</em></td></tr>
+				<tr><td>4th</td><td><em>phantasmal killer, greater invisibility</em></td></tr>
+				<tr><td>5th</td><td><em>dominate person, hold monster</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>The Outsider lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_DETECT_MAGIC</extend>
+			<extend>ID_PHB_SPELL_SLEEP</extend>
+			<extend>ID_PHB_SPELL_MISTY_STEP</extend>
+			<extend>ID_PHB_SPELL_DETECT_THOUGHTS</extend>
+			<extend>ID_PHB_SPELL_HASTE</extend>
+			<extend>ID_PHB_SPELL_CONJURE_ANIMALS</extend>
+			<extend>ID_PHB_SPELL_PHANTASMAL_KILLER</extend>
+			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+			<extend>ID_PHB_SPELL_HOLD_MONSTER</extend>
+		</spellcasting>
+	</element>
+    <element name="Void's Chosen" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_VOIDS_CHOSEN">
+		<description>
+			<p>The power of the Void flows through you, giving you proficiency in both Arcana and Stealth.</p>
+		</description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+	</element>
+	<element name="Bonecharms" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BONECHARMS">
+		<description>
+			<p>At 1st level, you are granted access to the power of the Outsider's Bonecharms. You can only use 4 bonecharms at a time, but you can change which ones you have equipped during a short or long rest. You can use two more at 5th level, 10th level, and 15th level respectively.</p>
+			<p class="indent">Bonecharms can be found in the world or crafted using 10gp worth of bone and a Dexterity + Intelligence roll made with Tinker’s Tools. While whale bone is preferred by the Outsider, any bone will do. You gain proficiency with Tinker’s Tools to make these gifts from the Outsider.</p>
+			<p class="indent"><em><strong>Charms must be either found or crafted.</strong></em> Crafting a charm takes an hour. The difficulty of crafting each charm can be seen below:</p>
+			<table>
+				<thead>
+					<tr><td>Activity</td><td class="col-10">DC</td></tr>
+				</thead>
+				<tr><td>Uncommon</td><td>15</td></tr>
+				<tr><td>Rare</td><td>20</td></tr>
+				<tr><td>Very Rare</td><td>25</td></tr>
+				<tr><td>Legendary</td><td>30</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Archetype Feature" name="Bonecharm (Level 1)" supports="Bonecharm,The Outsider" number="4" />
+			<select type="Archetype Feature" name="Bonecharm (Level 5)" supports="Bonecharm,The Outsider" number="2" level="5" />
+			<select type="Archetype Feature" name="Bonecharm (Level 10)" supports="Bonecharm,The Outsider" number="2" level="10" />
+			<select type="Archetype Feature" name="Bonecharm (Level 15)" supports="Bonecharm,The Outsider" number="2" level="15" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+		</rules>
+	</element>
+	<element name="Blink" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BLINK">
+		<description>
+			<p>Starting at 6th level, you can teleport up to 60ft then you gain advantage on your first attack roll.</p>
+			<p class="indent">Once you use this feature as many times ans your proficiency bonus, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action"  usage= "{{proficiency}}/Short Rest">
+			<description>You can teleport up to 60ft as a bonus action then gain advantage on your first attack roll.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Walk" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_SHADOW_WALK">
+        <description>
+            <p>At 10th level, you can use your action to trasform into a shadow for 1 minute and become invisible. Everything you were wearing or carrying seems to merge into the shadowy blob you become. You cease to be invisible if you attack or cast a spell. While in this form, you can make a finesse melee spell attack dealing 4d10 force damage on a hit. You must finish a short or long rest before you can use this feature again.</p>
+        </description>
+        <sheet action="Action" usage="1/Short Rest">
+            <description>You become a shadow, blending in to your environment. You become invisible for 1 minute. Within this duration, you can make a finesse melee spell attack dealing 4d10 + {{charisma:modifier}} damage.</description>
+        </sheet>
+    </element>
+	<element name="Bend Time" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_OUTSIDER_BEND_TIME">
+		<description>
+			<p>At 14th level, your universal understanding of time changes. You are immune to effects of slow and time stop spells. As a bonus action, you can bend time and reach the supernational limits of speed. For 1d4+1 turns, you can have two actions instead of one.</p>
+			<p class="indent">You must finish a long rest before you can use this feature again.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You are immune to effects of slow and time stop spells. As a bonus action, you can bend time and reach the supernational limits of speed. For 1d4+1 turns, you can have two actions instead of one.</description>
+		</sheet>
+	</element>
+
+	<!--Bonecharms-->
+    <element name="Accommodating Host" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULVIN_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_ACCOMMODATING_HOST">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Chain</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN, !ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_WELCOMING_HOST</requirements>
+        <description>
+            <p>Your body turns incorporeal and you posess your familiar for up to 1d8 + your proficiency bonus + your Charisma modifier + your Constitution modifier.</p>
+        </description>
+        <sheet>
+            <description>Your body turns incorporeal and you posess your familiar for up to 1d8 + {{possession}} minutes.</description>
+        </sheet>
+		<rules>
+            <stat name="possession"/>
+			<stat name="possession:charisma" value="charisma" />
+			<stat name="possession:constitution" value="constitution" />
+
+			<stat name="possession" value="possession:charisma" />
+			<stat name="possession" value="possession:constitution" />
+            <stat name="possession" value="proficiency"/>
+		</rules>
+    </element>
+    <element name="Acrobat" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_ACROBAT">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Gain a climbing speed equal to that of your walking speed</p>
+        </description> 
+		<sheet>
+			<description>Gain a climbing speed equal to that of your walking speed</description>
+		</sheet>
+        <rules>
+            <stat name="innate speed:climb" value="innate speed" bonus="base" />
+        </rules>
+    </element>
+    <element name="Agile Recovery" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_AGILE_RECOVERY">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>When prone, getting up takes no movement.</p>
+        </description>
+        <sheet>
+            <description>When prone, getting up takes no movement.</description>
+        </sheet> 
+    </element>
+    <element name="Agility" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_AGILITY">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>While this bonecharm is equipped, you are under the effects of the Jump spell.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_JUMP" />
+			</div>
+        </description>
+		<sheet>
+			<description>While this bonecharm is equipped, you are under the effects of the Jump spell.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+        </rules> 
+    </element>
+    <element name="Beast Scent" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_BEAST_SCENT">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Beasts will not be immediately hostile to you when entering combat.</p>
+        </description>
+        <sheet>
+            <description>Beasts will not be immediately hostile to you when entering combat.</description>
+        </sheet> 
+	</element>
+    <element name="Bird of Prey" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_BIRD_OF_PREY">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite></prerequisite>
+        <requirements></requirements>
+        <description>
+            <p>Gain advantage when attempting to kill someone from above. Successfully dropping them to 0 hit points will not only kill the target but heal you up to 4d4+5</p>
+        </description>
+        <sheet>
+            <description>Gain advantage when attempting to kill someone from above. Successfully dropping them to 0 hit points will not only kill the target but heal you up to 4d4+5</description>
+        </sheet> 
+	</element>
+    <element name="Blast Resistance" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_BLAST_RESISTANCE">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>You are resistant to fire and force damage.</p>
+        </description>
+        <sheet>
+            <description>You are resistant to fire and force damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+        </rules> 
+	</element>
+    <element name="Cornered Animal" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_CORNERED_ANIMAL">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>When your health is below 20%, you deal additional 2d10 + your charisma modifier force damage with any attack.</p>
+        </description>
+        <sheet>
+            <description>When your health is below 20%, you deal additional 2d10 + {{charisma:modifier}} in force damage with any attack.</description>
+        </sheet> 
+	</element>
+    <element name="Danger Sense" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_DANGER_SENSE">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Talisman</prerequisite>
+        <requirements>ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
+        <description>
+            <p>As a reaction, the wearer gains a premonition as to the spell about to be cast. The wearer can give up to half of your proficiency modifier of people advantage on the saving throw.</p>
+        </description>
+        <sheet>
+            <description>As a reaction, the wearer gains a premonition as to the spell about to be cast. The wearer can give up to {{proficiency:half}} people advantage on the saving throw.</description>
+        </sheet> 
+	</element>
+    <element name="Duelist's Skill" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_DUELISTS_SKILL">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>You gain +2 to damage rolls made with firearms.</p>
+        </description>
+        <sheet>
+            <description>You gain +2 to damage rolls made with firearms.</description>
+        </sheet> 
+	</element>
+    <element name="Exacting Aim" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_EXACTING_AIM">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>You gain +2 to damage rolls made with crossbows.</p>
+        </description>
+        <sheet>
+            <description>You gain +2 to damage rolls made with crossbows.</description>
+        </sheet> 
+	</element>
+    <element name="Efficient Sleeper" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_EFFICIENT_SLEEPER">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>When taking a short rest, you gain two additional hit die. These hit die regenerate if used after a long rest.</p>
+        </description>
+        <sheet>
+            <description>When taking a short rest, you gain two additional hit die. These hit die regenerate if used after a long rest.</description>
+        </sheet> 
+	</element>
+    <element name="Fencer" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_FENCER">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>You gain +1 to AC against melee attacks while wielding a bladed weapon.</p>
+        </description>
+        <sheet>
+            <description>You gain +1 to AC against melee attacks while wielding a bladed weapon.</description>
+        </sheet> 
+	</element>
+    <element name="Forceful Throw" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_FORCEFUL_THROW">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Thrown objects get a +2 to damage rolls.</p>
+        </description>
+        <sheet>
+            <description>Thrown objects get a +2 to damage rolls.</description>
+        </sheet> 
+	</element>
+    <element name="Leech Cuts 1" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_TWO, !ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_THREE</requirements>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d4 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d4 damage.</description>
+        </sheet> 
+	</element>
+    <element name="Leech Cuts 2" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_ONE, !ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_THREE</requirements>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d6 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d6 damage.</description>
+        </sheet> 
+	</element>
+    <element name="Leech Cuts 3" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_THREE">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_TWO, !ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LEECH_CUTS_ONE</requirements>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d8 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d8 damage.</description>
+        </sheet> 
+	</element>
+    <element name="Light as Shadow" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LIGHT_AS_SHADOW">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Fall damage is reduced by 1d6 for every 20 feet fallen.</p>
+        </description>
+        <sheet>
+            <description>Fall damage is reduced by 1d6 for every 20 feet fallen.</description>
+        </sheet> 
+	</element>
+    <element name="Lucky Jam" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_LUCKY_JAM">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>When an enemy makes a ranged weapon attack against you that uses a firing mechanism, rolla d20. On a 1, their weapon jams and they must spend an action to fix it.</p>
+        </description>
+        <sheet>
+            <description>When an enemy makes a ranged weapon attack against you that uses a firing mechanism, rolla d20. On a 1, their weapon jams and they must spend an action to fix it.</description>
+        </sheet> 
+	</element>
+    <element name="Read Magic" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_READ_MAGIC">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Tome</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>You can cast Identify as a ritual with half the casting time. The details appear within your tome.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_IDENTIFY" />
+			</div>
+        </description>
+        <sheet>
+            <description>You can cast Identify as a ritual with half the casting time. The details appear within your tome.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" />
+        </rules> 
+    </element>
+    <element name="Robust" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_ROBUST">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Being healed via potion will give you two additional die's worth of health.</p>
+        </description>
+        <sheet>
+            <description>Being healed via potion will give you two additional die's worth of health.</description>
+        </sheet> 
+	</element>
+    <element name="Scavenger" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_SCAVENGER">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>The Outsider will randomly hide magical loot on those you have slain.</p>
+        </description>
+        <sheet>
+            <description>The Outsider will randomly hide magical loot on those you have slain.</description>
+        </sheet> 
+	</element>
+    <element name="Secret Keeper" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_SECRET_KEEPER">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Tome</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>Gaze upon a creature with an intelligence score of at least 4. One of it's secrets will appear in your tome.</p>
+        </description>
+        <sheet>
+            <description>Gaze upon a creature with an intelligence score of at least 4. One of it's secrets will appear in your tome.</description>
+        </sheet> 
+	</element>
+    <element name="Seeker" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_SEEKER">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Talisman</prerequisite>
+        <requirements>ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
+        <description>
+            <p>With this, the wearer of your talisman knows the location of creatures and magical objects within a 60 foot radius. </p>
+        </description>
+        <sheet>
+            <description>With this, the wearer of your talisman knows the location of creatures and magical objects within a 60 foot radius.</description>
+        </sheet> 
+	</element>
+    <element name="Snap Reaction" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_SNAP_REACTION">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>When an enemy spots you duing active stealth, you can cast Time Stop. This can be done once per long rest.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_TIME_STOP" />
+			</div>
+        </description>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_TIME_STOP" />
+        </rules>
+        <sheet>
+            <description>When an enemy spots you duing active stealth, you can cast Time Stop. This can be done once per long rest.</description>
+        </sheet> 
+	</element>
+    <element name="Swift Shadow" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_SWIFT_SHADOW">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>You can move up to 10 additional feet when hidden and not reveal your location.</p>
+        </description>
+        <sheet>
+            <description>You can move up to 10 additional feet when hidden and not reveal your location.</description>
+        </sheet> 
+	</element>
+    <element name="Throwing Hand" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_THROWING_HAND">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Thrown objects gain +15/+60 to their range.</p>
+        </description>
+        <sheet>
+            <description>Thrown objects gain +15/+60 to their range.</description>
+        </sheet> 
+	</element>
+    <element name="Twist of Fortune 1" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_TWIST_OF_FORTUNE_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_TWIST_OF_FORTUNE_TWO</requirements>
+        <description>
+            <p>When drinking a health potion, roll a d100. If the result is below a 15, you regain full health</p>
+        </description>
+        <sheet>
+            <description>When drinking a health potion, roll a d100. If the result is below a 15, you regain full health</description>
+        </sheet> 
+	</element>
+    <element name="Twist of Fortune 2" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_TWIST_OF_FORTUNE_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_TWIST_OF_FORTUNE_ONE</requirements>
+        <description>
+            <p>When drinking a health potion, roll a d100. If the result is below a 30, you regain full health</p>
+        </description>
+        <sheet>
+            <description>When drinking a health potion, roll a d100. If the result is below a 30, you regain full health</description>
+        </sheet> 
+	</element>
+    <element name="Undertaker" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNDERTAKER">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules> 
+	</element>
+    <element name="Unnerving Target 1" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNNERVING_TARGET_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNNERVING_TARGET_TWO</requirements>
+        <description>
+            <p>When an enemy attemps to hit you with a ranged attack, they get a -2 to hit.</p>
+        </description>
+        <sheet>
+            <description>When an enemy attemps to hit you with a ranged attack, they get a -2 to hit.</description>
+        </sheet> 
+	</element>
+    <element name="Unnerving Target 2" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNNERVING_TARGET_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements>!ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNNERVING_TARGET_ONE</requirements>
+        <description>
+            <p>When an enemy attemps to hit you with a ranged attack, they get a -4 to hit.</p>
+        </description>
+        <sheet>
+            <description>When an enemy attemps to hit you with a ranged attack, they get a -4 to hit.</description>
+        </sheet> 
+	</element>
+    <element name="Unsteady Hand" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_UNSTEADY_HAND">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>Enemies have disadvantage on attack rolls made against you with ranged attacks.</p>
+        </description>
+        <sheet>
+            <description>Enemies have disadvantage on attack rolls made against you with ranged attacks.</description>
+        </sheet> 
+	</element>
+    <element name="Void's Favor" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_VOID_FAVOR">
+        <supports>Bonecharm, The Outsider</supports>
+        <requirements></requirements>
+        <description>
+            <p>When you cast a spell, roll a d100. If you roll below your warlock level, you cast that spell without expending the spell slot.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell of level 1 or higher, roll a d100. If you roll below your warlock level, you cast that spell without expending the spell slot.</description>
+        </sheet> 
+	</element>
+    <element name="Welcoming Host" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_WELCOMING_HOST">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Chain</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN, !ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_ACCOMMODATING_HOST</requirements>
+        <description>
+            <p>Your body turns incorporeal and you posess your familiar for up to 1d4 minutes + proficiency + your Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description>Your body turns incorporeal and you posess your familiar for up to 1d4 + {{possession}} minutes.</description>
+        </sheet>
+		<rules>
+            <stat name="possession"/>
+			<stat name="possession:charisma" value="charisma" />
+			<stat name="possession:constitution" value="constitution" />
+
+			<stat name="possession" value="possession:charisma" />
+			<stat name="possession" value="possession:constitution" />
+            <stat name="possession" value="proficiency"/>
+		</rules>
+	</element>
+    <element name="Whirlwind" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_BONECHARM_WHIRLWIND">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>You gain an Additional Attack when taking the Attack action. This stacks with the Thirsting Blade Invocation.</p>
+        </description>
+        <sheet>
+            <description>You gain an Additional attack when taking the Attack action. This stacks with the Thirsting Blade Invocation.</description>
+        </sheet>
+        <rules>
+            <stat name="extra attack:count" value="2" bonus="extra attack" />
+        </rules> 
+	</element>
+
+<!--Setting in the Outsider as a Deity-->
+	<element name="The Outsider" type="Deity" source="Mulvin Homebrew" id="ID_MULV_HB_DEITY_THE_OUTSIDER">
+		<description>
+			<p class="flavor">Emmisary of the Void</p>
+		</description>
+		<setters>
+			<set name="setting">Dishonored</set>
+			<set name="alignment">TN</set>
+			<set name="domains">Knowledge, Twilight, Arcana</set>
+			<set name="symbol">Appears to be a sword hilt of a rapier</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>Emmisary of the Void </description>
+		</sheet>
+	</element>
+
+    <!--Physical Bonecharms-->
+    <element name="Accommodating Host" type="Magic Item" source="Mulvin Homebrew" id="ID_MULVIN_MULV_HB_MAGIC_ITEM_BONECHARM_ACCOMMODATING_HOST">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Your body turns incorporeal and you posess your familiar for up to 1d8 minutes+your proficiency bonus + your Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description>Your body turns incorporeal and you posess your familiar for up to 1d8 + {{possesion}} minutes.</description>
+        </sheet>
+		<rules>
+			<stat name="posession" value="charisma:modifier"/>
+			<stat name="posession" value="proficiency"/>
+		</rules>
+            <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Acrobat" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_ACROBAT">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Gain a climbing speed equal to that of your walking speed</p>
+        </description> 
+		<sheet>
+			<description>Gain a climbing speed equal to that of your walking speed</description>
+		</sheet>
+        <rules>
+            <stat name="innate speed:climb" value="innate speed" bonus="base" />
+        </rules>
+            <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Agile Recovery" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_AGILE_RECOVERY">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When prone, getting up takes no movement.</p>
+        </description>
+        <sheet>
+            <description>When prone, getting up takes no movement.</description>
+        </sheet> 
+            <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Agility" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_AGILITY">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>While this bonecharm is equipped, you are under the effects of the Jump spell.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_JUMP" />
+			</div>
+        </description>
+		<sheet>
+			<description>While this bonecharm is equipped, you are under the effects of the Jump spell.</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+        </rules> 
+            <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Beast Scent" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_BEAST_SCENT">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Beasts will not be immediately hostile to you when entering combat.</p>
+        </description>
+        <sheet>
+            <description>Beasts will not be immediately hostile to you when entering combat.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Bird of Prey" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_BIRD_OF_PREY">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Gain advantage when attempting to kill someone from above. Successfully dropping them to 0 hit points will not only kill the target but heal you up to 4d4+5</p>
+        </description>
+        <sheet>
+            <description>Gain advantage when attempting to kill someone from above. Successfully dropping them to 0 hit points will not only kill the target but heal you up to 4d4+5</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Blast Resistance" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_BLAST_RESISTANCE">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>You are resistant to fire and force damage.</p>
+        </description>
+        <sheet>
+            <description>You are resistant to fire and force damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+        </rules> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Cornered Animal" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_CORNERED_ANIMAL">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>When your health is below 20%, you deal additional 2d10 + your Charisma modifier force damage with any attack.</p>
+        </description>
+        <sheet>
+            <description>When your health is below 20%, you deal additional 2d10 + {{charisma:modifier}} in force damage with any attack.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Danger Sense" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_DANGER_SENSE">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Talisman</prerequisite>
+        <requirements>ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
+        <description>
+            <p>As a reaction, the wearer gains a premonition as to the spell about to be cast. The wearer can give up to half of your proficiency modifier of people advantage on the saving throw.</p>
+        </description>
+        <sheet>
+            <description>As a reaction, the wearer gains a premonition as to the spell about to be cast. The wearer can give up to {{proficiency:half}} people advantage on the saving throw.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Duelist's Skill" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_DUELISTS_SKILL">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>You gain +2 to damage rolls made with firearms.</p>
+        </description>
+        <sheet>
+            <description>You gain +2 to damage rolls made with firearms.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Efficient Sleeper" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_EFFICIENT_SLEEPER">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When taking a short rest, you gain two additional hit die. These hit die regenerate if used after a long rest.</p>
+        </description>
+        <sheet>
+            <description>When taking a short rest, you gain two additional hit die. These hit die regenerate if used after a long rest.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Exacting Aim" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_EXACTING_AIM">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>You gain +2 to damage rolls made with crossbows.</p>
+        </description>
+        <sheet>
+            <description>You gain +2 to damage rolls made with crossbows.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Fencer" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_FENCER">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>You gain +1 to AC against melee attacks while wielding a bladed weapon.</p>
+        </description>
+        <sheet>
+            <description>You gain +1 to AC against melee attacks while wielding a bladed weapon.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Forceful Throw" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_FORCEFUL_THROW">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Thrown objects get a +2 to damage rolls.</p>
+        </description>
+        <sheet>
+            <description>Thrown objects get a +2 to damage rolls.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Leech Cuts 1" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_LEECH_CUTS_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d4 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d4 damage.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Leech Cuts 2" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_LEECH_CUTS_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d6 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d4 damage.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Leech Cuts 3" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_LEECH_CUTS_THREE">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When you deal damage with a melee weapon, you heal up to 1d8 damage.</p>
+        </description>
+        <sheet>
+            <description>When you deal damage with a melee weapon, you heal up to 1d4 damage.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Light as Shadow" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_LIGHT_AS_SHADOW">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Fall damage is reduced by 1d6 for every 20 feet fallen.</p>
+        </description>
+        <sheet>
+            <description>Fall damage is reduced by 1d6 for every 20 feet fallen.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Lucky Jam" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONbeECHARM_LUCKY_JAM">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When an enemy makes a ranged weapon attack against you that uses a firing mechanism, rolla d20. On a 1, their weapon jams and they must spend an action to fix it.</p>
+        </description>
+        <sheet>
+            <description>When an enemy makes a ranged weapon attack against you that uses a firing mechanism, rolla d20. On a 1, their weapon jams and they must spend an action to fix it.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Read Magic" type="Magic Item" source="Mulvin Homebrew" id="ID_MULVIN_MULV_HB_MAGIC_ITEM_BONECHARM_READ_MAGIC">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Tome</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>You can cast Identify as a ritual with half the casting time. The details appear within your tome.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_IDENTIFY" />
+			</div>
+        </description>
+        <sheet>
+            <description>You can cast Identify as a ritual with half the casting time. The details appear within your tome.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" />
+        </rules> 
+        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+            </setters>
+    </element>
+    <element name="Robust" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_ROBUST">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Being healed via potion will give you two additional die's worth of health.</p>
+        </description>
+        <sheet>
+            <description>Being healed via potion will give you two additional die's worth of health.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Scavenger" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_SCAVENGER">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>The Outsider will randomly hide magical loot on those you have slain.</p>
+        </description>
+        <sheet>
+            <description>The Outsider will randomly hide magical loot on those you have slain.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Secret Keeper" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_SECRET_KEEPER">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Tome</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>Gaze upon a creature with an intelligence score of at least 4. One of it's secrets will appear in your tome.</p>
+        </description>
+        <sheet>
+            <description>Gaze upon a creature with an intelligence score of at least 4. One of it's secrets will appear in your tome.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Seeker" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_SEEKER">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Talisman</prerequisite>
+        <requirements>ID_WOTC_TCOE_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TALISMAN</requirements>
+        <description>
+            <p>With this, the wearer of your talisman knows the location of creatures and magical objects within a 60 foot radius. </p>
+        </description>
+        <sheet>
+            <description>With this, the wearer of your talisman knows the location of creatures and magical objects within a 60 foot radius.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Snap Reaction" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_SNAP_REACTION">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When an enemy spots you duing active stealth, you can cast Time Stop. This can be done once per long rest.</p>
+            <div class="reference">
+				<div element="ID_PHB_SPELL_TIME_STOP" />
+			</div>
+        </description>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_TIME_STOP" />
+        </rules>
+        <sheet>
+            <description>When an enemy spots you duing active stealth, you can cast Time Stop. This can be done once per long rest.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Swift Shadow" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_SWIFT_SHADOW">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>You can move up to 10 additional feet when hidden and not reveal your location.</p>
+        </description>
+        <sheet>
+            <description>You can move up to 10 additional feet when hidden and not reveal your location.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Throwing Hand" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_THROWING_HAND">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Thrown objects gain +15/+60 to their range.</p>
+        </description>
+        <sheet>
+            <description>Thrown objects gain +15/+60 to their range.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Twist of Fortune 1" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_TWIST_OF_FORTUNE_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When drinking a health potion, roll a d100. If the result is below a 15, you regain full health</p>
+        </description>
+        <sheet>
+            <description>When drinking a health potion, roll a d100. If the result is below a 15, you regain full health</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Twist of Fortune 2" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_TWIST_OF_FORTUNE_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When drinking a health potion, roll a d100. If the result is below a 30, you regain full health</p>
+        </description>
+        <sheet>
+            <description>When drinking a health potion, roll a d100. If the result is below a 30, you regain full health</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Undertaker" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_UNDERTAKER">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Unnerving Target 1" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_UNNERVING_TARGET_ONE">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When an enemy attemps to hit you with a ranged attack, they get a -2 to hit.</p>
+        </description>
+        <sheet>
+            <description>When an enemy attemps to hit you with a ranged attack, they get a -2 to hit.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Unnerving Target 2" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_UNNERVING_TARGET_TWO">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When an enemy attemps to hit you with a ranged attack, they get a -4 to hit.</p>
+        </description>
+        <sheet>
+            <description>When an enemy attemps to hit you with a ranged attack, they get a -4 to hit.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Unsteady Hand" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_UNSTEADY_HAND">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>Enemies have disadvantage on attack rolls made against you with ranged attacks.</p>
+        </description>
+        <sheet>
+            <description>Enemies have disadvantage on attack rolls made against you with ranged attacks.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Void's Favor" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_VOID_FAVOR">
+        <supports>Bonecharm, The Outsider</supports>
+        <description>
+            <p>When you cast a spell, roll a d100. If you roll below your warlock level, you cast that spell without expending the spell slot.</p>
+        </description>
+        <sheet>
+            <description>When you cast a spell of level 1 or higher, roll a d100. If you roll below your warlock level, you cast that spell without expending the spell slot.</description>
+        </sheet> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Legendary</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Welcoming Host" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_WELCOMING_HOST">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Chain</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+        <description>
+            <p>Your body turns incorporeal and you posess your familiar for up to 1d4 minutes + proficiency + your Charisma modifier.</p>
+        </description>
+        <sheet>
+            <description>Your body turns incorporeal and you posess your familiar for up to 1d4 + {{possesion:bonus}} minutes.</description>
+        </sheet>
+		<rules>
+			<stat name="posession:bonus" value="{{charisma:modifier}}"/>
+			<stat name="posession:bonus" value="proficiency"/>
+		</rules>
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Whirlwind" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_BONECHARM_WHIRLWIND">
+        <supports>Bonecharm, The Outsider</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>You gain an Additional Attack when taking the Attack action. This stacks with the Thirsting Blade Invocation.</p>
+        </description>
+        <sheet>
+            <description>You gain an Additional attack when taking the Attack action. This stacks with the Thirsting Blade Invocation.</description>
+        </sheet>
+        <rules>
+            <stat name="extra attack:count" value="2" bonus="extra attack" />
+        </rules> 
+	        <setters>
+            <set name="category">Bonecharm</set>
+            <set name="type">Bonecharm</set>
+            <set name="rarity">Very Rare</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+</elements>

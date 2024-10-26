@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="wizard-of-the-citadel2014.xml" url = "C:\Users\amulv\Documents\5e Character Builder\custom\user\wizard-of-the-citadel2014.xml"/>
+		</update>
+	</info>
+
+	<element name="Wizard of the Citadel (2014)" type="Archetype" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL">
+		<supports>Arcane Tradition</supports>
+		<description>
+			<p>Wizards are known by their secrets, and when they have time, they conquer all.</p>
+			<div element="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_SPELLCRAFT_SECRETS" />
+			<div element="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_RITUAL_DIAGRAMS" />
+			<div element="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_APPLIED_ARCANA" />
+			<div element="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_CRYPTIC_RIDER" />
+			<div element="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_MASTER_OF_THE_CITADEL" />
+		</description>
+		<sheet display="false">
+			<description>Wizards are known by their secrets, and when they have time, they conquer all.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_SPELLCRAFT_SECRETS" level="2"/>
+			<grant type="Archetype Feature" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_RITUAL_DIAGRAMS" level="2"/>
+			<grant type="Archetype Feature" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_APPLIED_ARCANA" level="6"/>
+			<grant type="Archetype Feature" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_CRYPTIC_RIDER" level="10"/>
+			<grant type="Archetype Feature" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_MASTER_OF_THE_CITADEL" level="14"/>
+		</rules>
+	</element>
+	<element name="Spellcraft Secrets" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_SPELLCRAFT_SECRETS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_SPELLCRAFT_SECRETS</requirements>
+		<description>
+			<p>Through diligent study, you’ve learned esoteric tricks, twists, and shortcuts of spellcasting methodology, and can modulate your spells as you cast them. You gain three spellcraft secrets of your choice from among those described in the “Spellcraft Secrets Options” section later in this subclass’s description. Whenever you gain a Wizard level after 3, you gain one additional secret of your choice. You can use only one secret on a spell when you cast it. If a secret calls for a saving throw, use your spell save DC if no other DC is specified. You can modify a Wizard spell with a secret a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest. Additionally, whenever you gain a Wizard level, you can choose one of the secrets you know and replace it with another secret.</p>
+		</description>
+		<sheet usage= "{{proficiency}}/Short Rest">
+			<description>When casting a spell, you can choose to apply one of the following secrets:</description>
+		</sheet>
+        <rules>
+			<select type="Archetype Feature" name="Spellcraft Secrets" supports="Spellcraft Secrets" number="2" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 3)" supports="Spellcraft Secrets" number="1" level="3" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 4)" supports="Spellcraft Secrets" number="1" level="4" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 5)" supports="Spellcraft Secrets" number="1" level="5" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 6)" supports="Spellcraft Secrets" number="1" level="6" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 7)" supports="Spellcraft Secrets" number="1" level="7" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 8)" supports="Spellcraft Secrets" number="1" level="8" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 9)" supports="Spellcraft Secrets" number="1" level="9" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 10)" supports="Spellcraft Secrets" number="1" level="10" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 11)" supports="Spellcraft Secrets" number="1" level="11" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 12)" supports="Spellcraft Secrets" number="1" level="12" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 13)" supports="Spellcraft Secrets" number="1" level="13" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 14)" supports="Spellcraft Secrets" number="1" level="14" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 15)" supports="Spellcraft Secrets" number="1" level="15" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 16)" supports="Spellcraft Secrets" number="1" level="16" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 17)" supports="Spellcraft Secrets" number="1" level="17" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 18)" supports="Spellcraft Secrets" number="1" level="18" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 19)" supports="Spellcraft Secrets" number="1" level="19" />
+			<select type="Archetype Feature" name="Spellcraft Secrets (Level 20)" supports="Spellcraft Secrets" number="1" level="20" />
+		</rules>
+	</element>
+
+	<element name="Ritual Diagrams" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_RITUAL_DIAGRAMS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_RITUAL_DIAGRAMS</requirements>
+		<description>
+			<p>You learn to map out your spells to speed your ritual spellcasting. When you cast a spell as a ritual, you can draw a 15-foot-radius arcane diagram on a flat, level surface, using chalk, salt, blood, or another material suitable to the spell in question. Once the first ritual casting is complete, you can cast the same spell as a ritual without spending the additional 10 minutes so long as you are within the boundaries of the diagram. A creature within 5 feet of the diagram can use an action to scuff it, ending this effect. Likewise, running water, strong winds, and other such forces can destroy the diagram. You can maintain a number of diagrams equal to your Proficiency Bonus. If you exceed your maximum number of diagrams, your oldest diagram immediately loses its magical properties.</p>
+		</description>
+		<sheet>
+			<description>You can draw a 15 ft. diagram for a ritual spell you are casting. Once the cast is complete, you can cast this same spell without expending the 10 minutes while withn the diagram. You can maintain {{proficiency}} diagrams at a time.</description>
+		</sheet>
+	</element>
+	<element name="Applied Arcana" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_APPLIED_ARCANA">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_APPLIED_ARCANA</requirements>
+		<description>
+			<p>The Citadel reminds its scholars to step out of the ivory tower and undertake creative labors. Choose one of the following fields of applied arcana and gain the associated feature.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Alchemy.</strong> You dedicate yourself to the art of alchemy, drawing upon its healing and transformative aspect—as well as its fulminatinfulminating and destructive side. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Alchemist’s Supplies. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>When you use an action or Bonus Action to drink a potion that restores Hit Points or administer such a potion to another creature, or to throw a vial of Acid or a flask of Alchemist’s Fire, you can double the number of Hit Points regained or damage dealt.</li>
+				<li>When you drink a potion, roll a d6; on a 6, you gain the benefit of the potion with only the barest sip, and the potion isn’t expended.</li>
+			</ul>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Celestial Navigation.</strong> You study the patterns of the stars and planets in their eternal cycles. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Navigator’s Tools. If you already have this proficiency, you instead gain proficiency with Cartographer's Tools, or another type of tools of your choice.</li>
+				<li>When you travel using Navigator’s Tools or a map of the region, your superior navigation doubles your pace, and that of creatures traveling with you.</li>
+				<li>You add the Dimension Door and Misty Step spells to your spellbook if they are not there already. You automatically have the spells prepared and they don’t count against the number of spells you prepare. The maximum distance you can teleport when you cast them is doubled.</li>
+			</ul>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Forge Magic.</strong> You work the forge and weave the subtle spells of smiths into molten steel and polished silver. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Smith’s Tools. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>You can attune to a fourth magic item. The item must be a Ring, Rod, Staff, Wand, or Weapon.</li>
+				<li>You add the Magic Weapon and Elemental Weapon spells to your spellbook if they are not there already, and they count as Wizard spells for you. You automatically have the spells prepared and they don’t count against the number of spells you prepare. While you are concentrating on either of these spells, your Concentration can’t be broken as a result of taking damage.</li>
+			</ul>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Inscription.</strong> Every Wizard must write in their spellbook, but some elevate this art form with calligraphy and illumination. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Calligrapher’s Supplies. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>You are adept at empowering the release of inscribed magical energy. When you cast a spell from a Spell Scroll, roll a d6. On a 4 or 5, the spell takes effect as if it was cast with a spell slot one level higher. On a 6, the spell takes effect as if it was cast with a spell slot two levels higher.</li>
+				<li>The time and cost to add a new spell into your spellbook is halved. Additionally, when you copy a spell from a Spell Scroll into your spellbook, the scroll isn’t destroyed.</li>
+			</ul>
+		</description>
+        <rules>
+            <select type="Archetype Feature" name="Applied Arcana" supports="Applied Arcana"/>
+        </rules>
+	</element>
+    <!--Applied Arcana Benefits-->
+    <element name="Alchemy" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_APPLIED_ARCANA_ALCHEMY">
+        <supports>Applied Arcana</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>You dedicate yourself to the art of alchemy, drawing upon its healing and transformative aspect—as well as its fulminatinfulminating and destructive side. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Alchemist’s Supplies. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>When you use an action or Bonus Action to drink a potion that restores Hit Points or administer such a potion to another creature, or to throw a vial of Acid or a flask of Alchemist’s Fire, you can double the number of Hit Points regained or damage dealt.</li>
+				<li>When you drink a potion, roll a d6; on a 6, you gain the benefit of the potion with only the barest sip, and the potion isn’t expended.</li>
+			</ul>
+		</description>
+        <sheet>
+            <p>When you use an action or Bonus Action to drink a potion that restores Hit Points or administer such a potion to another creature, or to throw a vial of Acid or a flask of Alchemist’s Fire, you can double the number of Hit Points regained or damage dealt.</p>
+			<p>When you drink a potion, roll a d6; on a 6, you gain the benefit of the potion with only the barest sip, and the potion isn’t expended.</p>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+		</rules>
+    </element>
+	<element name="Celestial Navigation" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_APPLIED_ARCANA_CELESTIAL_NAVIGATION">
+        <supports>Applied Arcana</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>You study the patterns of the stars and planets in their eternal cycles. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Navigator’s Tools. If you already have this proficiency, you instead gain proficiency with Cartographer's Tools, or another type of tools of your choice.</li>
+				<li>When you travel using Navigator’s Tools or a map of the region, your superior navigation doubles your pace, and that of creatures traveling with you.</li>
+				<li>You add the Dimension Door and Misty Step spells to your spellbook if they are not there already. You automatically have the spells prepared and they don’t count against the number of spells you prepare. The maximum distance you can teleport when you cast them is doubled.</li>
+			</ul>
+		</description>
+        <sheet>
+            <p>When you travel using Navigator’s Tools or a map of the region, your superior navigation doubles your pace, and that of creatures traveling with you.</p>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP"/>
+		</rules>
+    </element>
+	<element name="Forge Magic" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_APPLIED_ARCANA_FORGE_MAGIC">
+        <supports>Applied Arcana</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>You work the forge and weave the subtle spells of smiths into molten steel and polished silver. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Smith’s Tools. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>You can attune to a fourth magic item. The item must be a Ring, Rod, Staff, Wand, or Weapon.</li>
+				<li>You add the Magic Weapon and Elemental Weapon spells to your spellbook if they are not there already, and they count as Wizard spells for you. You automatically have the spells prepared and they don’t count against the number of spells you prepare. While you are concentrating on either of these spells, your Concentration can’t be broken as a result of taking damage.</li>
+			</ul>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+			<stat name="attunement:max" value="4" bonus="base"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON"/>
+			<grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON"/>
+		</rules>
+    </element>
+	<element name="Inscription" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_APPLIED_ARCANA_INSCRIPTION">
+        <supports>Applied Arcana</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>Every Wizard must write in their spellbook, but some elevate this art form with calligraphy and illumination. You gain the following benefits:</p>
+			<ul>
+				<li>You gain proficiency with Calligrapher’s Supplies. If you already have this proficiency, you instead gain proficiency with one other type of Artisan’s Tools of your choice.</li>
+				<li>You are adept at empowering the release of inscribed magical energy. When you cast a spell from a Spell Scroll, roll a d6. On a 4 or 5, the spell takes effect as if it was cast with a spell slot one level higher. On a 6, the spell takes effect as if it was cast with a spell slot two levels higher.</li>
+				<li>The time and cost to add a new spell into your spellbook is halved. Additionally, when you copy a spell from a Spell Scroll into your spellbook, the scroll isn’t destroyed.</li>
+			</ul>
+		</description>
+        <sheet>
+            <p>You are adept at empowering the release of inscribed magical energy. When you cast a spell from a Spell Scroll, roll a d6. On a 4 or 5, the spell takes effect as if it was cast with a spell slot one level higher. On a 6, the spell takes effect as if it was cast with a spell slot two levels higher.</p>
+			<p>The time and cost to add a new spell into your spellbook is halved. Additionally, when you copy a spell from a Spell Scroll into your spellbook, the scroll isn’t destroyed.</p>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />
+		</rules>
+    </element>
+	<element name="Cryptid Rider" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_CRYPTIC_RIDER">	
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_CRYPTIC_RIDER</requirements>
+		<description>
+			<p>You have learned to hide one spell within the umbra of another. When you cast a level 5+ Wizard spell that forces one or more creatures to make a saving throw, you can choose to give affected creatures Advantage on their saving throw. When you do so, you can simultaneously cast a second spell with a casting time of 1 action that targets only one creature. Choose one target who succeeded on its save against the first spell. It has no effect on that creature, and the creature is targeted by the second spell instead. (The second spell uses its own range or that of the first spell, whichever is longer.)</p>
+			<p>If the first spell is countered, the creature that countered it is automatically targeted by the second spell, if the creature is within range.</p>
+		</description>
+		<sheet>
+			<description>When casting a Wizard spell of level 5 or higher that targets multiple creatures, you can choose to give those creatures affected advantage. You can target 1 creature that saves with a spell that has a casting time of 1 action, using the longer of the two ranges.</description>
+		</sheet>
+	</element>
+	<element name="Master of the Citadel" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_WIZARD_CITADEL_MASTER_OF_THE_CITADEL">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_MASTER_OF_THE_CITADEL</requirements>
+		<description><p>The Citadel reminds its scholars to step out of the ivory tower and undertake creative labors. Choose one of the following fields of applied arcana and gain the associated feature.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Geometric Substitution.</strong> If the spell has an area of effect that isn’t an Emanation, change its area of effect to one of the following: a 30-foot Cone, a 25-foot Cube, a Cylinder with a radius of 15 feet and a height of 60 feet, a Line that’s 60 feet long and 5 feet wide, or a 20-foot-radius Sphere.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Range Substitution.</strong> Change a spell with a range of Touch to a range of 60 feet. Alternatively, change a ranged spell attack to a melee spell attack.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Elemental Substitution.</strong> If the spell deals damage, you can change one damage type dealt by the spell to a different damage type other than Force damage.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Statistical Substitution.</strong> After you roll damage, you can choose for the spell to deal its average damage instead.</p>
+			<p>You can use this feature once, and regain the use of it after you finish a Short or Long Rest, or when you expend a level 4+ spell slot to use it again.</p>
+			</description>
+		<sheet>
+			<description>When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Master of the Citadel" supports="Master of the Citadel" number="2" />
+		</rules>
+	</element>
+
+	<!--Master of the Citadel-->
+	<element name="Geometric Substitution" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_MASTER_OF_THE_CITADEL_GEOMETRIC_SUBSTITUTION">
+        <supports>Master of the Citadel</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>If the spell has an area of effect that isn’t an Emanation, change its area of effect to one of the following: a 30-foot Cone, a 25-foot Cube, a Cylinder with a radius of 15 feet and a height of 60 feet, a Line that’s 60 feet long and 5 feet wide, or a 20-foot-radius Sphere.</p>
+		</description>
+        <sheet>
+			<p>If the spell has an area of effect that isn’t an Emanation, change its area of effect to one of the following: a 30-foot Cone, a 25-foot Cube, a Cylinder with a radius of 15 feet and a height of 60 feet, a Line that’s 60 feet long and 5 feet wide, or a 20-foot-radius Sphere.</p>
+		</sheet>
+    </element>
+	<element name="Range Substitution" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_MASTER_OF_THE_CITADEL_RANGE_SUBSTITUTION">
+        <supports>Master of the Citadel</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>Change a spell with a range of Touch to a range of 60 feet. Alternatively, change a ranged spell attack to a melee spell attack.</p>
+		</description>
+        <sheet>
+			<p>Change a spell with a range of Touch to a range of 60 feet. Alternatively, change a ranged spell attack to a melee spell attack.</p>
+		</sheet>
+    </element>
+	<element name="Elemental Substitution" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_MASTER_OF_THE_CITADEL_ELEMENTAL_SUBSTITUTION">
+        <supports>Master of the Citadel</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>If the spell deals damage, you can change one damage type dealt by the spell to a different damage type other than Force damage.</p>
+		</description>
+        <sheet>
+			<p>If the spell deals damage, you can change one damage type dealt by the spell to a different damage type other than Force damage.</p>
+		</sheet>
+    </element>
+	<element name="Statistical Substitution" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_MASTER_OF_THE_CITADEL_STATISTICAL_SUBSTITUTION">
+        <supports>Master of the Citadel</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>After you roll damage, you can choose for the spell to deal its average damage instead.</p>
+		</description>
+        <sheet>
+			<p>After you roll damage, you can choose for the spell to deal its average damage instead.</p>
+		</sheet>
+    </element>
+	
+	<!--Feature Replacement Grants-->
+	<element name="Spellcraft Secrets Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_SPELLCRAFT_SECRETS" />
+	<element name="Ritual Diagrams Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_RITUAL_DIAGRAMS" />
+	<element name="Applied Arcana Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_APPLIED_ARCANA" />
+	<element name="Cryptid Rider Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_CRYPTIC_RIDER" />
+	<element name="Master of the Citadel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CITADEL_MASTER_OF_THE_CITADEL" />
+
+	
+    <!--Shhhhhhhhhhhhhhhhhhh Secwets-->
+    <element name="Crystalline Secret" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_CRYSTALLINE_SECRET">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Abjuration or Transmutation</strong> If the spell has an area of effect that isn’t an Emanation, change its area of effect to one of the following: a 30-foot Cone, a 25-foot Cube, a Cylinder with a radius of 15 feet and a height of 60 feet, a Line that’s 60 feet long and 5 feet wide, or a 20-foot-radius Sphere.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Conjuration</strong> Change a spell with a range of Touch to a range of 60 feet. Alternatively, change a ranged spell attack to a melee spell attack.</p>
+			<p style="text-indent: -1em; margin-left: 1em"><strong>Evocation.</strong> If the spell deals damage, you can change one damage type dealt by the spell to a different damage type other than Force damage.</p>
+		</description>
+        <sheet>
+            <description>Your body turns incorporeal and you posess your familiar for up to 1d8 + {{possession}} minutes.</description>
+        </sheet>
+    </element>
+	<element name="En Passant Secret" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_EN_PASSANT_SECRET">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that targets a single creature with this secret, you can target it regardless of its current location, so long as it was in range of the spell at any time since the end of your last turn. If you normally have to see the creature to target it, you can do so as long as you were able to see it at any time since the end of your last turn. If the spell requires an attack roll, the target can only benefit from the lowest degree of cover it had from you in that time.</p>
+			</description>
+        <sheet>
+            <description>You can target a single creature who was within the spells range and within sight since the end of your last turn. The creature recieves cover benefits of the lowest degree of cover if an attack roll is required.</description>
+        </sheet>
+    </element>
+	<element name="Rules Against Perpetuities" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_RULES_AGAINST_PERPETUITIES">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>When you cast a level 1+ Divination or Enchantment spell with this secret, one creature of your choice affected by the spell is marked for finality for 1 minute. During that time, effects that would trigger as a result of the creature being reduced to 0 Hit Points or dying (such as Death Ward or a monster’s Death Burst trait) fail and are wasted.</description>
+        <sheet>
+            <description>When you cast a Divination or Enchantment spell, you can mark one creature for finality. All effects that trigger on the creature hitting 0 hit points or dying fail.</description>
+        </sheet>
+    </element>
+	<element name="Threadcutting Secret" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_THREADCUTTING_SECRET">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>What is fated can be rewoven to the will of the Wizard. When you cast a level 1+ spell on a creature that is willing or has the Incapacitated condition, you can use this secret to learn the names of other spells and curses affecting it. You can end one of those effects on them and transfer it to yourself. You are affected by it even if it couldn’t normally target you.</description>
+        <sheet>
+            <description>When you cast a level 1+ spell on a creature that is willing or has the Incapacitated condition, you can use this secret to learn the names of other spells and curses affecting it. You can end one of those effects on them and transfer it to yourself. You are affected by it even if it couldn’t normally target you.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Antimagic" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_ANTIMAGIC">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>When you succeed on a saving throw against a spell, you can use this secret to analyze the construction of the caster’s spells. Until you finish a long rest, you have advantage on ability checks made to counter or dispel that caster’s spells.</p>
+		</description>
+        <sheet>
+            <description>When you succeed on a saving throw against a spell, you have advantage on ability checks made to counter or dispel that caster’s spells until you finish a long rest.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Arcane Rebuke" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_ARCANE_REBUKE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+			<p>When you cast a spell that requires Concentration using this secret, you weave a hidden contingency into the casting. If a creature within 300 feet of you causes you to lose Concentration on the spell, the creature takes Force damage equal to 1d8 + the level of the spell and must make a Constitution saving throw. On a failure, it has the Stunned condition until the start of its next turn.</p>
+		</description>
+        <sheet>
+            <description>If a creature within 300 feet of you causes you to lose Concentration on the spell, the creature takes Force damage equal to 1d8 + the level of the spell and must make a Constitution saving throw. On a failure, it has the Stunned condition until the start of its next turn.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Bound Arcana" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_BOUND_ARCANA">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you hold a magical Wand, Staff, or Rod, you can use this secret to cast a spell that the item can cast by expending one of your own spell slots of the appropriate level of the item’s charges.</p>
+		</description>
+        <sheet>
+            <description>When you hold a magical Wand, Staff, or Rod, you can cast a spell that the item can cast by expending one of your own spell slots of the appropriate level of the item’s charges.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Burning Word" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_BURNING_WORD">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret, treat the spell as if it were cast with a spell slot two levels higher than the one you expended, even if you don’t have a spell slot of that level. Afterward, the spell is burned out of you. You take 1d6 Fire damage plus 1d6 Psychic damage. This damage ignores Resistance and Immunity. Once you use this secret on a spell, you can’t cast that spell again until you finish a Long Rest.</p>
+			<p>When you use the Secret of the Burning Word with a level 8 or 9 spell slot, you treat the spell as if it were cast with a level 10 or 11 spell slot, respectively, even though such a spell slot level doesn’t normally exist.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell with this secret, treat the spell as if it were cast with a spell slot two levels higher than the one you expended, even if you don’t have a spell slot of that level. You take 1d6 Fire damage plus 1d6 Psychic damage, ignoring Resistance and Immunity. Once you use this secret on a spell, you can’t cast that spell again until you finish a Long Rest.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Clustering" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_CLUSTERING">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that requires an attack roll with this secret, if the spell’s attack roll hits, the next time you hit the same target with a spell attack before the end of your next turn, the target takes an extra 1d6 Force damage.</p>
+		</description>
+        <sheet>
+            <description>When making a spell attack, if the spell’s attack roll hits, the target takes an extra 1d6 Force damage if you hit it with a spell attack again before the end of your next turn.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Contingency" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_CONTINGENCY">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with a casting time of 1 action with this secret, you can delay the spell’s effects and declare a triggering condition. You must concentrate on the delayed spell. The first time the triggering condition is met, the spell takes effect as if you just finished casting it. Choose targets and other parameters of the spell as it takes effect. If the spell isn’t triggered within 1 minute, it dissipates with no effect.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell with a casting time of 1 action with this secret, you can delay the spell’s effects and declare a triggering condition. You must concentrate on the delayed spell. Choose targets and other parameters of the spell as it takes effect. If the spell isn’t triggered within 1 minute, it dissipates with no effect.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Dislocation" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_DISLOCATION">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that conjures one or more creatures with this secret, you can choose to have one of them appear in your space, and you teleport to an unoccupied space within 10 feet of you, along with any equipment you’re wearing or carrying.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell that conjures one or more creatures, you can choose to have one of them appear in your space, and you teleport to an unoccupied space within 10 feet of you, along with any equipment you’re wearing or carrying.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Displaced Origin" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_DISPLACED_ORIGIN">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that creates an area of effect originating from you, you can instead cause it to originate from a space up to 5 feet away from you.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell that creates an area of effect originating from you, you can instead cause it to originate from a space up to 5 feet away from you.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Dragon's Wrath" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_DRAGONS_WRATH">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret using a level 3+ spell slot that has a Cone or Line area of effect, the creature nearest to you that fails its saving throw also gains the Frightened condition until the end of your next turn.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell using a level 3+ spell slot that has a Cone or Line area of effect, the creature nearest to you that fails its saving throw also gains the Frightened condition until the end of your next turn.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Entangled Will" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_ENTAGLED_WILL">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>While concentrating on a spell that affects a single creature, you can use this secret to disrupt other Concentration spells on the target. As a Bonus Action, make an ability check using your spellcasting ability against the spell save DC of each of the other casters concentrating on a spell on the target. If you succeed on any of the checks, you can end Concentration on your spell to dispel those spells.</p>
+		</description>
+        <sheet action="Bonus Action">
+            <description>As a Bonus Action, make an ability check using your spellcasting ability against the spell save DC of each of the other casters concentrating on a spell on your target. If you succeed on any of the checks, you can end Concentration on your spell to dispel those spells.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Falconer" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_FALCONER">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that conjures or summons a creature with this secret, for the duration of the spell, you can teleport it from any location you can see to a space within 5 feet of you as a Bonus Action.</p>
+		</description>
+        <sheet action="Bonus Action">
+            <description>You can teleport conjured creatures from any location you can see to a space within 5 feet of you</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Falling Star" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_FALLING_STAR">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that gives you a Fly Speed or slows your falling with this secret, the next time you land, creatures within 5 feet of you must make a Strength saving throw. A creature that fails this saving throw takes 1d6 Bludgeoning damage per level of the expended spell slot and is pushed 10 feet away from you.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell that gives you a Fly Speed or slows your falling with this secret, the next time you land, creatures within 5 feet of you must make a Strength saving throw. A creature that fails this saving throw takes 1d6 Bludgeoning damage per level of the expended spell slot and is pushed 10 feet away from you.</description>
+        </sheet>
+    </element>
+	<element name="Secret of False Revelations" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_FALSE_REVELATIONS">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast an Illusion spell with this secret, it gains a Material component: a candle worth 25 gp, made from rabbit tallow, nutmeg, and honey, which the spell consumes. Creatures with Truesight do not automatically detect the illusion nor automatically succeed on saving throws against it. Creatures that can see Invisible creatures and objects only perceive subjects rendered Invisible by the spell if they pass within 5 feet of them.</p>
+		</description>
+        <sheet>
+            <description>When you cast an Illusion spell with this secret, it gains a Material component: a candle worth 25 gp, made from rabbit tallow, nutmeg, and honey, which the spell consumes. Creatures with Truesight do not automatically detect the illusion nor automatically succeed on saving throws against it. Creatures that can see Invisible creatures and objects only perceive subjects rendered Invisible by the spell if they pass within 5 feet of them.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Focused Effect" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_FOCUSED_EFFECT">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that causes creatures in an area of effect to make a saving throw, you can use this secret to cause the spell to affect only a single creature. If you do, that creature makes its saving throw with Disadvantage.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell that causes creatures in an area of effect to make a saving throw, you can cause the spell to affect only a single creature. If you do, that creature makes its saving throw with Disadvantage.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Golden Pauldron" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_GOLDEN_PAULDRON">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast an Abjuration spell on yourself with this secret, you become a defensive bastion. For the spell’s duration, if you are included in the area of a spell or effect that creates a line, the line affects you normally and then stops in your space.</p>
+		</description>
+        <sheet>
+            <description>For the duration of an Abjuration spell, if you are included in the area of a spell or effect that creates a line, the line affects you normally and then stops in your space.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Great Bear" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_GREAT_BEAR">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>Like the Great Bear, you thrive on what you consume. When you cause a spell to fail with Counterspell or end a spell with Dispel Magic with this secret, you gain Temporary Hit Points equal to the level of the spell you countered or dispelled.</p>
+		</description>
+        <sheet>
+            <description>When you cause a spell to fail with Counterspell or end a spell with Dispel Magic with this secret, you gain Temporary Hit Points equal to the level of the spell you countered or dispelled.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Immurement" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_IMMUREMENT">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that creates a wall or dome with this secret, you can incorporate corpses that lie in the same space as your wall or dome. The corpses are animated by the spell. For the duration of the spell, you can use a Bonus Action to direct these animated bodies to make an attack against a creature of your choice within 5 feet of the spell’s area, using your spell attack modifier. On a hit, they deal Bludgeoning damage equal to 1d6 + the level of the spell that created the wall or dome.</p>
+		</description>
+        <sheet action="Bonus Action">
+            <description>WWhen you cast a spell that creates a wall or dome, incorporate corpses that lie in the same space as your wall or dome. You can direct these animated bodies to make an attack against a creature of your choice within 5 feet of the spell’s area, using your spell attack modifier. On a hit, they deal Bludgeoning damage equal to 1d6 + the level of the spell that created the wall or dome.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Octad" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_OCTAD">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a level 1+ spell with this secret, you gain a number of charges equal to the level of the spell slot expended. These charges have the same type as the school of the spell you cast. When you cast a spell of the same school, you can expend 1 charge to increase your spell save DC for that spell by 1. The charges last for 1 minute or until expended.</p>
+		</description>
+        <sheet>
+            <description>When you cast a level 1+ spell, gain a number of charges equal to the level of the spell slot expended. When you cast a spell of the same school, you can expend 1 charge to increase your spell save DC for that spell by 1. The charges last for 1 minute or until expended.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Peaceful Summons" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_PEACEFUL_SUMMONS">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that summons one or more creatures with this secret, you can increase the duration to 24 hours. The creatures summoned can’t take the Attack action or use abilities (including spells) that affect unwilling creatures.</p>
+		</description>
+        <sheet>
+            <description>You can increase the duration of a spell that summons one or more creatures to 24 hours. The creatures summoned can’t take the Attack action or use abilities (including spells) that affect unwilling creatures.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Physical Variance" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_PHYSICAL_VARIANCE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you prepare your spells as part of a Long Rest, you can use this secret to alter one spell you prepared which causes creatures to make a Strength, Dexterity, or Constitution saving throw. You alter the spell to require your choice of those three saving throws instead. This alteration lasts until you finish a Short or Long Rest unless you spend another use of your spell secrets to maintain it.</p>
+		</description>
+        <sheet>
+            <description>When you prepare your spells, you can use this secret to alter one spell you prepared which causes creatures to make a Strength, Dexterity, or Constitution saving throw to require your choice of those three saving throws instead. This alteration lasts until you finish a Short or Long Rest unless you spend another use of your spell secrets to maintain it.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Polarity" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_POLARITY">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you miss with an attack roll for a spell, if the target is wearing metal armor, carrying a metal shield, or made of metal, you can use this secret to roll a d6 and add the number rolled to the attack roll, potentially turning the miss into a hit.</p>
+		</description>
+        <sheet>
+            <description>When you miss with an attack roll for a spell, if the target is wearing metal armor, carrying a metal shield, or made of metal, you can use this secret to roll a d6 and add the number rolled to the attack roll, potentially turning the miss into a hit.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Psychic Variance" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_PSYCHIC_VARIANCE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you prepare your spells as part of a Long Rest, you can use this secret to alter one spell you prepared which causes creatures to make an Intelligence, Wisdom, or Charisma saving throw. You alter the spell to require your choice of those three saving throws instead. This alteration lasts until you finish a Short or Long Rest, unless you spend another use of your spell secrets to maintain it.</p>
+		</description>
+        <sheet>
+            <description>When you prepare your spells, you can use this secret to alter one spell you prepared which causes creatures to make a Intelligence, Wisdom, or Charisma saving throw to require your choice of those three saving throws instead. This alteration lasts until you finish a Short or Long Rest unless you spend another use of your spell secrets to maintain it.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Repaired Form" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_REPAIRED_FORM">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a level 1+ Transmutation spell that targets a single creature, you can use this secret to restore Hit Points to that creature equal to 2d4 + the level of the spell slot.</p>
+		</description>
+        <sheet>
+            <description>When you cast a level 1+ Transmutation spell that targets a single creature, restore Hit Points to that creature equal to 2d4 + the level of the spell slot.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Ricochet" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_RICOCHET">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>The first time you make an attack roll for a spell cast with this secret and roll an even number on the d20, you can choose another target within 15 feet of the first, that also becomes a target of this spell. Make a new spell attack against that target.</p>
+		</description>
+        <sheet>
+            <description>The first time you make an attack roll for a spell cast and roll an even number on the d20, choose another target within 15 feet of the first. Make a new spell attack against that target.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Second Chance" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_SECOND_CHANCE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>After you miss a spell attack, use this secret. At the beginning of your next turn, make the attack roll again with the same target. If it hits, you can use your action to inflict the effects of the spell.</p>
+		</description>
+        <sheet>
+            <description>After you miss a spell attack, use this secret. At the beginning of your next turn, make the attack roll again with the same target. If it hits, you can use your action to inflict the effects of the spell.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Shattered Light" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_SHATTERED_LIGHT">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast an Illusion spell with this secret, a creature that physically interacts with the illusion takes 1d6 Radiant damage per level of the spell slot expended. This ends the illusion.</p>
+		</description>
+        <sheet>
+            <description>When you cast an Illusion spell, a creature that physically interacts with the illusion takes 1d6 Radiant damage per level of the spell slot expended, ending the illusion.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Spell-Shadowing" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_SPELL-SHADOWING">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret, roll a d6. On a 4 or higher, creatures can’t take Reactions in response to the spell or its casting. On a 3 or lower, ability checks to counter the spell are made with disadvantage.</p>
+		</description>
+        <sheet>
+            <description>Roll a d6. On a 4 or higher, creatures can’t take Reactions in response to the spell or its casting. On a 3 or lower, ability checks to counter the spell are made with disadvantage.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Tempering" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_TEMPERING">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret that deals damage, you can choose to temper it. If damage from the spell reduces a creature to 0 Hit Points, the creature has the Unconscious condition and is stable.</p>
+		</description>
+        <sheet>
+            <description>If damage from the spell cast with this secret reduces a creature to 0 Hit Points, the creature has the Unconscious condition and is stable.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Tenacity" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_TENACITY">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell that requires Concentration with this secret, you entwine it with your body’s autonomic functions. If you gain the Incapacitated condition, you don’t lose Concentration on the spell. You must still make saving throws to maintain Concentration when you take damage, and you lose Concentration if you fail a Death Saving Throw.</p>
+		</description>
+        <sheet>
+            <description>If you gain the Incapacitated condition, you don’t lose Concentration on the spell. You must still make saving throws to maintain Concentration when you take damage, and you lose Concentration if you fail a Death Saving Throw.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Thaumatic Recoil" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THAUMATIC_RECOIL">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret that targets at least one creature other than you, you can force the spell energy to explosively recoil. You gain the Prone condition and are thrown 1d4 × 5 feet away from one of the targets (your choice). Your Speed is reduced to 0 until the start of your next turn. Large or smaller creatures that take damage from the spell also have the Prone condition and are thrown the same distance away from you.</p>
+		</description>
+        <sheet>
+            <description>After casting a spell that does not target yourself, you gain the Prone condition and are thrown 1d4 × 5 feet away from one of the targets (your choice). Your Speed is reduced to 0 until the start of your next turn. Large or smaller creatures that take damage from the spell also have the Prone condition and are thrown the same distance away from you.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Torporance" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_TORPORANCE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When a creature fails its saving throw against an Enchantment spell you cast by 5 or more, you can use this secret to cause that creature to drift to sleep when the spell ends. At the end of the spell’s duration, the target has the Unconscious condition for 1d100 minutes or until it takes damage, or someone uses an action to slap or shake the creature awake.</p>
+		</description>
+        <sheet>
+            <description>When a creature fails its saving throw against an Enchantment spell you cast by 5 or more, you cause that creature to drift to sleep. At the end of the spell’s duration, the target has the Unconscious condition for 1d100 minutes or until it takes damage, or someone uses an action to slap or shake the creature awake.</description>
+        </sheet>
+    </element>
+	<element name="Secret of the Twilight Crown" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_THE_TWILIGHT_CROWN">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret while you are in Bright Light or Darkness, you draw the light or darkness into yourself, leaving only Dim Light within a radius of 60 feet from you for 1 minute. This area moves with you as a crown of soft crepuscular glow appears on your brow. For the duration, you ignore Disadvantage on Wisdom (Perception) checks imposed by Dim Light.</p>
+			<p>Also for the duration, enemies provoke an Opportunity Attack from you when they move to a space within 5 feet of you. You can take a Reaction to cast a cantrip at the creature, rather than making the Opportunity Attack. The cantrip must have a casting time of 1 action and must target only that creature.</p>
+		</description>
+        <sheet>
+            <description>When using this secret in Bright Light, you draw all but a 60' radius of light centered on you. This light moves with you and allows you to ignore the disadvantages of Dim Light. Enemies provoke an Opportunity Attack from you when they move to a space within 5 feet of you. You can take a Reaction to cast a single target cantrip, with a casting time of 1 action, at the creature.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Versatility" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_VERSATILITY">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you prepare your Wizard spells as part of a Long Rest, you can use this secret multiple times to prepare one additional spell for each use. After you cast a spell prepared in this way or finish a Short or Long Rest, you cease to have it prepared unless you use this secret again. As a Bonus Action, you can lose preparation on a spell you prepared with this secret to regain a use of your Spellcraft Secrets.</p>
+		</description>
+        <sheet>
+            <description>You can prepare an additional spell per use of secret as part of a Long Rest. Spells prepared this way can only be cast once per Rest. You can lose these spells as a bonus action to regain a use of your Spellcraft Secrets.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Voice and Gesture" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_VOICE_AND_GESTURE">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you cast a spell with this secret that has Verbal and Somatic components, you can cast it with only the Verbal or the Somatic component (in addition to any costly Material components). If a spell uses only Verbal components, you can replace it with Somatic components. If a spell uses only Somatic components, you can replace it with Verbal components.</p>
+		</description>
+        <sheet>
+            <description>When you cast a spell that has Verbal and Somatic components, you can cast it with only the Verbal or the Somatic component (in addition to any costly Material components). If a spell uses only Verbal components, you can replace it with Somatic components. If a spell uses only Somatic components, you can replace it with Verbal components.</description>
+        </sheet>
+    </element>
+	<element name="Secret of Warp and Wet" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_SECRET_OF_WARP_AND_WET">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>When you use this secret on a Divination spell or a spell that deals damage, you perceive the weakest and strongest points in the physical structure of objects as faint vertical and horizontal lines like woven threads. For 1 minute, your spells that deal damage can target objects as if they were creatures, and your spells and weapon attacks deal double damage to objects.</p>
+		</description>
+        <sheet>
+            <description>For 1 minute after casting a Divination or damage dealing spell, your spells that deal damage can target objects as if they were creatures, and your spells and weapon attacks deal double damage to objects.</description>
+        </sheet>
+    </element>
+	<element name="Stone's Secret Alacrity" type="Archetype Feature" source="Worlds Beyond Number" id="ID_WBN_ARCHETYPE_FEATURE_SPELLCRAFT_SECRETS_STONES_SECRET_ALACRITY">
+        <supports>Spellcraft Secrets</supports>
+        <requirements>ID_WBN_ARCHETYPE_WIZARD_WIZARD_OF_THE_CITADEL</requirements>
+        <description>
+            <p>You can modify some spells to cast them with unexpected speed. When you cast a spell with this secret that has a casting time of 1 minute (that you aren’t casting as a ritual) and a duration of 1 hour or less, you can cast it with 1 action instead. You can use this secret on a spell of a level up to your proficiency bonus.</p>
+		</description>
+        <sheet>
+            <description>When you cast a non-ritual spell that has a casting time of 1 minute and a duration of 1 hour or less, you can cast it with 1 action instead. You can use this secret on a spell up to level {{proficiency}}</description>
+        </sheet>
+    </element>
+	
+
+</elements>
