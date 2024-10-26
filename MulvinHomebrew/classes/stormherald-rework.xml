@@ -3,7 +3,7 @@
     <info>
         <name>Storm Herald</name>
         <update version="0.0.2">
-            <file name="stormherald-rework2.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\stormherald-rework2.xml" />
+            <file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/classes/stormherald-rework.xml" />
         </update>
     </info>
 	
