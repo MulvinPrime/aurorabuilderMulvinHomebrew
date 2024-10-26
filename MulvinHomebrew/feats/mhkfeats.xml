@@ -3,7 +3,7 @@
 	<info>
 		<name>Mulvin Homebrew Kara Feats</name>
 		<update version="0.0.1">
-			<file name="mhkfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhkfeats.xml" />
+			<file name="mhkfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/feats/mhkfeats.xml" />
 		</update>
 	</info>
 	<element name="Psionic Rejuvenation" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_PSIONIC_REJUVENATION">
