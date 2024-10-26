@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mulvin Homebrew Cross Feats</name>
+		<update version="0.0.1">
+			<file name="mhcfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhcfeats.xml" />
+		</update>
+	</info>
+<element name="Heroic Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_HEROIC_INSPIRATION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Two's Company. </b>You now can Inspire two people at once with Bardic Inspiration. It still requires one use of Bardic Inspiration per target.</p>
+            <p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+			<p class="indent"><b>Heroic Inspiration. </b>Your Bardic Inspiration now imparts the Heroism spell onto the targets.</p>
+		</description>		
+		<sheet>
+			<description>You can Bardically Inspire two allies with one bonus action. Your Bardic Inspiration now imparts the Heroism spell onto the targets.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" />
+            <stat name="bardic-inspiration:count" value="1"/>
+		</rules>
+	</element>
+
+    <element name="Caffeinated Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_CAFFEINATED_INSPIRATION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Three's a Crowd. </b>You now can Inspire three people at once with Bardic Inspiration. It still requires one use of Bardic Inspiration per target.</p>
+            <p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+			<p class="indent"><b>Caffeinated Inspiration. </b>Your Bardic Inspiration now imparts the Haste spell onto the targets.</p>
+		</description>		
+		<sheet>
+			<description>You can Bardically Inspire three allies with one bonus action. Your Bardic Inspiration now imparts the Haste spell onto the targets.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" />
+            <stat name="bardic-inspiration:count" value="1"/>
+		</rules>
+	</element>
+
+    <element name="Rejuvenating Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_REJUVENATING_INSPIRATION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Four's a Party. </b>You now can Inspire four people at once with Bardic Inspiration. It still requires one use of Bardic Inspiration per target.</p>
+            <p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+			<p class="indent"><b>Caffeinated Inspiration. </b>Your Bardic Inspiration now heals as if you cast the Mass Cure Wounds spell onto the targets.</p>
+		</description>		
+		<sheet>
+			<description>You can Bardically Inspire three allies with one bonus action. Your Bardic Inspiration now heals as if you cast the Mass Cure Wounds spell onto the targets.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" />
+            <stat name="bardic-inspiration:count" value="1"/>
+		</rules>
+	</element>
+
+    <element name="Self Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_REJUVENATING_INSPIRATION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>YOU GOT THE TOUCH!  </b>You now can Inspire yourself.</p>
+            <p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+		</description>		
+		<sheet>
+			<description>You can Bardically Inspire yourself.</description>
+		</sheet>
+		<rules>
+            <stat name="bardic-inspiration:count" value="1"/>
+		</rules>
+	</element>
+    
+</elements>

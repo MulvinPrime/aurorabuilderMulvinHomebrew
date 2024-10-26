@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mulvin Homebrew Kara Feats</name>
+		<update version="0.0.1">
+			<file name="mhpfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhpfeats.xml" />
+		</update>
+	</info>
+	<element name="Elemental Affinity" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_ELEMENTAL_AFFINITY">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Careful, that's hot. </b>Save your allies from being collateral damage. You gain the Sculpt Spells feature.</p>
+			<p class="indent"><b>You didn't Listen, did you?. </b>Your affinity with the Raging Storm grants your weapons her fury. As a bonus action, you can pour your element of choice into your weapon for an extra 3d6 damage.</p>
+		</description>		
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action, you can deal 3d6 damage of the same type as your elemental source.</description>
+		</sheet>
+	</element>
+
+	<element name="Rage of the Storm Goddess" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_RAGE_OF_THE_STORM_GODDESS">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher).</p>
+		</description>		
+		<sheet>
+			<description>When activating your Rage effect, you can upcast the spells using Rage charges (to a maximum of 3).</description>
+		</sheet>
+	</element>
+</elements>

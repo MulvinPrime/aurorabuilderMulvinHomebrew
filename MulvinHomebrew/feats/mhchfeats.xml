@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mulvin Homebrew Chyenne Feats</name>
+		<update version="0.0.1">
+			<file name="mhchfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhchfeats.xml" />
+		</update>
+	</info>
+    <element name="Spooky Action" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_SPOOKY_ACTION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Spooky Action at a Distance. </b>When you teleport through someone's space, they take falling damage as force damage rounded down to the nearest 10 feet.</p>
+		</description>		
+		<sheet>
+			<description>When you teleport through someone's space, they take force damage equal 1d6 per 10 feet traveled, rounded down.</description>
+		</sheet>
+	</element>
+
+     <element name="Mass Displacement" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_MASS_DISPLACEMENT">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Speed of Light. </b>You gain the Thunder Step, Dimension Door, and Far Step spells as a part of your spell list.</p>
+			<p class="indent"><b>Graviton. </b>Double the damage dice of Planar Warrior.</p>
+		</description>		
+		<sheet>
+			<description>Double the dice for Planar Warrior's damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_THUNDER_STEP" />
+			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FAR_STEP" />
+		</rules>
+	</element>
+
+    <element name="Disperse" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_DISPERSE">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>SPLIT. </b>You can cast Scatter spell twice per Long Rest, applying the Spooky Action to each target's teleport.</p>
+		</description>		
+		<sheet action = "Action" usage="2/Long Rest">
+			<description>You can cast Scatter, applying Spooky Action</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_SCATTER" />
+		</rules>
+	</element>
+
+    <element name="To Infinity" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_TO_INFINITY">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>And Beyond!. </b>You can cast Teleport and Plane Shift once per Long Rest.</p>
+		</description>		
+		<sheet action = "Action" usage="1/Long Rest">
+			<description>You can cast Teleport and Plane Shift.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_TELEPORT" />
+			<grant type="Spell" id="ID_PHB_SPELL_PLANE_SHIFT" />
+		</rules>
+	</element>
+</elements>

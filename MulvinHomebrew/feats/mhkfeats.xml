@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mulvin Homebrew Kara Feats</name>
+		<update version="0.0.1">
+			<file name="mhkfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhkfeats.xml" />
+		</update>
+	</info>
+	<element name="Psionic Rejuvenation" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_PSIONIC_REJUVENATION">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>No no, don't touch me there. </b>You gain the Absorb Elements, Shield, Silvery Barbs, Blur, Mirror Image, and Counterspell spells as a part of your spell list.</p>
+			<p class="indent"><b>More Spells, Less Problems. </b>As a bonus action, you can convert Psionic Die into spell slots at a rate of 1 die per spell slot level.</p>
+		</description>		
+		<sheet action="Bonus Action">
+			<description>As a bonus action, you can convert Psionic Die into spell slots at a rate of 1 die per spell slot level.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_POTA_SPELL_ABSORBELEMENTS" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHIELD" />
+			<grant type="Spell" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLUR" />
+			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" />
+			<grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
+		</rules>
+	</element>
+
+	<element name="Can't Hit Me" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_CANT_HIT_ME">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>No means no. </b>When applying Uncanny Dodge, you can avoid all damage on a DC 10 or half the damage (whichever is higher) Dexterity check.</p>
+			<p class="indent"><b>My Mind is Slippery. </b>Evasion triggers on any saving throw.</p>
+		</description>		
+		<sheet>
+			<description>When using Uncanny Dodge, if you beat a DC 10 or half the damage (whichever is higher) Dex check, you negate all damage.</description>
+			<description>Evasion triggers on any saving throw.</description>
+		</sheet>
+	</element>
+
+	<element name="Magical Converter" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_MAGICAL_CONVERTER">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>What was Yours is now mine. </b>When you succeed against an enemy spell, you regain a number of spell slot equal in value to the spell cast (minimum of one).</p>
+		</description>		
+		<sheet>
+			<description>Regain spell slots on a successful save against an enemy spell equal in level to the spell cast (minimum of one).</description>
+		</sheet>
+	</element>
+
+	<element name="Scion of the Unyielding Hunger" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_SCION_OF_THE_UNYIELDING">
+		<description>
+			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
+			<p class="indent"><b>Scales of the Unyielding. </b>Your magical aura mimics that of the Unyielding Hunger. Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, you are unaffected, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target. This counts as saving against any spell DC.</p>
+		</description>		
+		<sheet>
+			<description>Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, you are unaffected, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target. This counts as saving against any spell DC.</description>
+		</sheet>
+	</element>
+</elements>
