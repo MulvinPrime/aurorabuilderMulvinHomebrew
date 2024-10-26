@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="wizard-of-the-citadel2014.xml" url = "C:\Users\amulv\Documents\5e Character Builder\custom\user\wizard-of-the-citadel2014.xml"/>
+			<file name="wizard-of-the-citadel2014.xml" url = "https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/classes/wizard-of-the-citadel2014.xml"/>
 		</update>
 	</info>
 
