@@ -3,7 +3,7 @@
 	<info>
 		<name>Mulvin Homebrew Kara Feats</name>
 		<update version="0.0.1">
-			<file name="mhpfeats.xml" url="C:\Users\amulv\Documents\5e Character Builder\custom\user\mhpfeats.xml" />
+			<file name="mhpfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/feats/mhpfeats.xml" />
 		</update>
 	</info>
 	<element name="Elemental Affinity" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_ELEMENTAL_AFFINITY">
