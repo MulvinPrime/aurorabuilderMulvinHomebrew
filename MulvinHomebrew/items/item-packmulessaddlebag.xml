@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<update version="0.0.1">
-			<file name="items-packmulessaddlebag.xml" url="C:\Users\amulv\Desktop\My Campaign\items-pack-mules-saddlebag.xml" />
+			<file name="items-packmulessaddlebag.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-pack-mules-saddlebag.xml" />
 		</update>
     </info>
     <element name="Pack Mule's Saddlebags" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_PACK_MULE'S_SADDLEBAGS">
