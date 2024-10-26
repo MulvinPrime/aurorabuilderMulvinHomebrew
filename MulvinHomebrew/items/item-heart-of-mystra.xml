@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<update version="0.0.1">
-			<file name="items-heart-of-mystra.xml" url="C:\Users\amulv\Desktop\My Campaign\items-heart-of-mystra.xml" />
+			<file name="items-heart-of-mystra.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-heart-of-mystra.xml" />
 		</update>
     </info>
 
