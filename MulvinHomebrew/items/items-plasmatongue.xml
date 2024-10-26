@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<update version="0.0.1">
-			<file name="items-plasmatongue.xml" url="C:\Users\amulv\Desktop\My Campaign\items-plasmatongue.xml" />
+			<file name="items-plasmatongue.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-plasmatongue.xml" />
 		</update>
     </info>
     <element name="Plasma Tongue" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_PLASMA_TONGUE">
