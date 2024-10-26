@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<update version="0.0.1">
-			<file name="items-weight-of-the-world.xml" url="C:\Users\amulv\Desktop\My Campaign\items-weight-of-the-world.xml" />
+			<file name="items-weight-of-the-world.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-weight-of-the-world.xml" />
 		</update>
     </info>
 
