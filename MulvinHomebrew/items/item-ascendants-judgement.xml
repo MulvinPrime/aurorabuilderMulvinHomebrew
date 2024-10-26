@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-ascendants-judgement.xml" url="C:\Users\amulv\Desktop\My Campaign\items-ascendants-judgement.xml" />
+		</update>
+    </info>
+
+	<element name="Ascendant's Judgement (Dormant)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ASCENDANTS_JUDGEMENT_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>A religious artifact of The Church of the Ascendant. They say the Ascendant Dragon will choose their champion through this artifact</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Ascendant's Judgement grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>After you take a rest, roll a d6. This determines the Form of the weapon. The Ascendant's Judgement deals an additonal d4 of damage of that type.</li>
+				<table>
+				<thead>
+					<tr><td>(1-2)d4</td><td>Metallic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Fire</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Acid</td></tr>
+				<tr><td>4</td><td>Cold</td></tr>
+                <thead>
+					<tr><td>(3-4)d6</td><td>Chromatic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Acid</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Poison</td></tr>
+				<tr><td>4</td><td>Fire</td></tr>
+				<tr><td>3</td><td>Cold</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+                <thead>
+					<tr><td>(5-6)d6</td><td>Gem</td></tr>
+				</thead>
+				<tr><td>1</td><td>Force</td></tr>
+				<tr><td>2</td><td>Radiant</td></tr>
+				<tr><td>3</td><td>Psychic</td></tr>
+				<tr><td>4</td><td>Thunder</td></tr>
+				<tr><td>3</td><td>Necrotic</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+			</table>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">greataxe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="weapon">Greataxe</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+	<element name="Ascendant's Judgement (Awakened)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ASCENDANTS_JUDGEMENT_AWAKENED">
+		<compendium display="false"/>
+		<description>
+			<p>A religious artifact of The Church of the Ascendant. They say the Ascendant Dragon will choose their champion through this artifact</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Ascendant's Judgement grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>After you take a rest, roll a d6. This determines the Form of the weapon. The Ascendant's Judgement deals an additonal d4 of damage of that type.</li>
+				<table>
+				<thead>
+					<tr><td>(1-2)d4<td><td>Metallic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Fire</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Acid</td></tr>
+				<tr><td>4</td><td>Cold</td></tr>
+                <thead>
+					<tr><td>(3-4)d6<td><td>Chromatic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Acid</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Poison</td></tr>
+				<tr><td>4</td><td>Fire</td></tr>
+				<tr><td>3</td><td>Cold</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+                <thead>
+					<tr><td>(5-6)d6<td><td>Gem</td></tr>
+				</thead>
+				<tr><td>1</td><td>Force</td></tr>
+				<tr><td>2</td><td>Radiant</td></tr>
+				<tr><td>3</td><td>Psychic</td></tr>
+				<tr><td>4</td><td>Thunder</td></tr>
+				<tr><td>3</td><td>Necrotic</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+			</table>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Ascendant's judgement reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>The Elemental damage increaases to 2d4. You no longer have to roll for what category the Elemental damage comes from.</li>
+				<li>You can cast Green Flame Blade through the greataxe, dealing damage matching the Ascendant's Judgement's current Form.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">greataxe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="weapon">Greataxe</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+        <rules>
+			<grant type="Spell" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE"/>
+        </rules>
+	</element>
+	<element name="Ascendant's Judgement (Exalted)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ASCENDANTS_JUDGEMENT_EXALTED">
+		<description>
+			<p>A religious artifact of The Church of the Ascendant. They say the Ascendant Dragon will choose their champion through this artifact</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Ascendant's Judgement grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>After you take a rest, roll a d6. This determines the Form of the weapon. The Ascendant's Judgement deals an additonal d4 of damage of that type.</li>
+				<table>
+				<thead>
+					<tr><td>(1-2)d4<td><td>Metallic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Fire</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Acid</td></tr>
+				<tr><td>4</td><td>Cold</td></tr>
+                <thead>
+					<tr><td>(3-4)d6<td><td>Chromatic</td></tr>
+				</thead>
+				<tr><td>1</td><td>Acid</td></tr>
+				<tr><td>2</td><td>Lightning</td></tr>
+				<tr><td>3</td><td>Poison</td></tr>
+				<tr><td>4</td><td>Fire</td></tr>
+				<tr><td>3</td><td>Cold</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+                <thead>
+					<tr><td>(5-6)d6<td><td>Gem</td></tr>
+				</thead>
+				<tr><td>1</td><td>Force</td></tr>
+				<tr><td>2</td><td>Radiant</td></tr>
+				<tr><td>3</td><td>Psychic</td></tr>
+				<tr><td>4</td><td>Thunder</td></tr>
+				<tr><td>3</td><td>Necrotic</td></tr>
+				<tr><td>4</td><td>Choose</td></tr>
+			</table>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Ascendant's judgement reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>The Elemental damage increaases to 2d4. You no longer have to roll for what category the Elemental damage comes from.</li>
+				<li>You can cast Green Flame Blade through the greataxe, dealing damage matching the Ascendant's Judgement's current Form.</li>
+			</ul>
+			<p class="indent"><strong><em>Exalted.</em></strong> When the Ascendant's judgement reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +3.</li>
+				<li>The Elemental damage increaases to 3d4.</li>
+				<li>You can now choose the Elemental damage after a rest.</li>
+				<li>You can deal an extra 5d8 damage of the Ascendant's chosen damage type as a bonus action 3 times per long rest.</li>
+			</ul>x
+		</description>
+		<setters>
+			<set name="keywords">greataxe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="weapon">Greataxe</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+        <rules>
+			<grant type="Spell" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE"/>
+        </rules>
+	</element>
+</elements>

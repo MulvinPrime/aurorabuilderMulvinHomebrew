@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-packmulessaddlebag.xml" url="C:\Users\amulv\Desktop\My Campaign\items-pack-mules-saddlebag.xml" />
+		</update>
+    </info>
+    <element name="Pack Mule's Saddlebags" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_PACK_MULE'S_SADDLEBAGS">
+		<description>
+			<p>Along with a well laid out and rather roomy set of bags with enough storage space for the standard adventurer's pack plus some additional odds and ends; This Lifting Belt Doubles the weight a character can Push, Pull, or Carry. For paticularly heavy objects, the wearre may use an action to lift something up to 4 times their standard maximum for a period of time equal to 6 seconds times their Strength Ability Modifier.</p>
+		</description>
+		<setters>
+			<set name="keywords">Saddlebags</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0"></set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+            <set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+</elements>

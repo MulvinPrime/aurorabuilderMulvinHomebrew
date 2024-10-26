@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-of-ogma.xml" url="C:\Users\amulv\Desktop\My Campaign\items-of-ogma.xml" />
+		</update>
+    </info>
+
+    <element name="Chronographer's Gauntlets" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_CHRONOGRAPHER'S GAUNTLETS">
+		<compendium display="false"/>
+		<description>
+			<p>Crafted by Ogma for his bards, these bracers increase the natural intelligence and defense of the wearer, allowing for them to live to see another day and remember what they saw.</p>
+		</description>
+		<setters>
+			<set name="keywords">intelligence</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+		<rules>
+			<stat name="intelligence:score:set" value="19" bonus="base" />
+			<stat name="ac:misc" value="2" equipped="[shield:none]" />
+			<stat name="perception:passive" value="5" />
+			<stat name="investigation:passive" value="5" />
+		</rules>
+    </element>
+
+	<element name="Legendmaker (Dormant)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_LEGENDMAKER_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>A sword passed down through the ages, crafted by Oghma. This longsword is a well-crafted tool, too elegant to be called a weapon </p>
+			<p class="indent"><strong><em>Sentience.</em></strong> Legendmaker is a sentient true neutral weapon with an Intelligence of 19, a Wisdom of 10, and a Charisma of 19. It has hearing, telepathy, and darkvision out to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically and can speak and understand Common, Dwarven, Elven, Gnome, and Halfling.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> The Legendmaker is proud of itself and who made it. It tends to ramble on and on about things it has learned while travelling the lands. THe only thing that will shut it up is more knowledge.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The longsword grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Dwarven, Elven, Gnome, and Halfling.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+				<li>You are able to cast the spell <em>Identify</em> through the sword without using a spell slot.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="weapon">Longsword</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DWARVEN" />
+			<grant type="Language" id="ID_LANGUAGE_ELVEN" />
+			<grant type="Language" id="ID_LANGUAGE_GNOME" />
+			<grant type="Language" id="ID_LANGUAGE_HALFLING" />
+			<grant type="Spell" id="ID_SPELL_IDENTIFY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+		</rules>
+	</element>
+	<element name="Legendmaker (Awakened)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_LEGENDMAKER_AWAKENED">
+		<compendium display="false" />
+		<description>
+			<p>A sword passed down through the ages, crafted by Oghma. This longsword is a well-crafted tool, too elegant to be called a weapon </p>
+			<p class="indent"><strong><em>Sentience.</em></strong> Legendmaker is a sentient true neutral weapon with an Intelligence of 19, a Wisdom of 10, and a Charisma of 19. It has hearing, telepathy, and darkvision out to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically and can speak and understand Common, Dwarven, Elven, Gnome, and Halfling.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> The Legendmaker is proud of itself and who made it. It tends to ramble on and on about things it has learned while travelling the lands. THe only thing that will shut it up is more knowledge.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The longsword grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Dwarven, Elven, Gnome, and Halfling.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+				<li>You are able to cast the spell <em>Identify</em> through the sword without using a spell slot.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the longsword reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): legend lore, charm monster, confusion, or otto's irresistable dance. Once a spell has been cast using the longsword, that spell can’t be cast from the longsword again until the next dawn.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="weapon">Longsword</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DWARVEN" />
+			<grant type="Language" id="ID_LANGUAGE_ELVEN" />
+			<grant type="Language" id="ID_LANGUAGE_GNOME" />
+			<grant type="Language" id="ID_LANGUAGE_HALFLING" />
+			<grant type="Spell" id="ID_SPELL_IDENTIFY" />
+			<grant type="Spell" id="ID_SPELL_LEGEND_LORE" />
+			<grant type="Spell" id="ID_SPELL_CHARM_MONSTER" />
+			<grant type="Spell" id="ID_SPELL_CONFUSION" />
+			<grant type="Spell" id="ID_SPELL_OTTOS_IRRESISTABLE_DANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+		</rules>
+	</element>
+	<element name="Legendmaker (Exalted)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_LEGENDMAKER_EXALTED">
+		<description>
+			<p>A sword passed down through the ages, crafted by Oghma. This longsword is a well-crafted tool, too elegant to be called a weapon </p>
+			<p class="indent"><strong><em>Sentience.</em></strong> Legendmaker is a sentient true neutral weapon with an Intelligence of 19, a Wisdom of 10, and a Charisma of 19. It has hearing, telepathy, and darkvision out to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically and can speak and understand Common, Dwarven, Elven, Gnome, and Halfling.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> The Legendmaker is proud of itself and who made it. It tends to ramble on and on about things it has learned while travelling the lands. THe only thing that will shut it up is more knowledge.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The longsword grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Dwarven, Elven, Gnome, and Halfling.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+				<li>You are able to cast the spell <em>Identify</em> through the sword without using a spell slot.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the longsword reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): legend lore, charm monster, confusion, or otto's irresistable dance. Once a spell has been cast using the longsword, that spell can’t be cast from the longsword again until the next dawn.</li>
+			</ul>
+			<p class="indent"><strong><em>Exalted.</em></strong> When the longsword reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +3.</li>
+				<li>The saving throw DC for spells cast from the longsword increases to 17.</li>
+				<li>You can cast <em>Legend Lore</em> without expending a spell slot while using the sword.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="weapon">Longsword</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DWARVEN" />
+			<grant type="Language" id="ID_LANGUAGE_ELVEN" />
+			<grant type="Language" id="ID_LANGUAGE_GNOME" />
+			<grant type="Language" id="ID_LANGUAGE_HALFLING" />
+			<grant type="Spell" id="ID_SPELL_IDENTIFY" />
+			<grant type="Spell" id="ID_SPELL_LEGEND_LORE" />
+			<grant type="Spell" id="ID_SPELL_CHARM_MONSTER" />
+			<grant type="Spell" id="ID_SPELL_CONFUSION" />
+			<grant type="Spell" id="ID_SPELL_OTTOS_IRRESISTABLE_DANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+		</rules>
+	</element>
+</elements>

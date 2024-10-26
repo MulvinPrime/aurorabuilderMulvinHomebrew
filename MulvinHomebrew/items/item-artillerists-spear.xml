@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-artillerists-spear.xml" url="C:\Users\amulv\Desktop\My Campaign\items-artillerists-spear.xml" />
+		</update>
+    </info>
+
+	<element name="Artillerist's Spear (Dormant)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ARTILLERISTS_SPEAR_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>This spear was crafted in a land far from here, having fallen through the Omniverse to end up in these lands.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Artillerist's Spear grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>When thrown, the item reappears in the hands of the weilder attuned to it. A copy of the spear head remains lodged where the spear landed.</li>
+				<li> As a bonus action, slamming the butt of the spear into the ground results in the copies of the spearhead to explode dealing 2d6 force damage.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="weapon">Spear</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+	<element name="Artillerist's Spear (Awakened)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ARTILLERISTS_SPEAR_AWAKENED">
+		<compendium display="false"/>
+		<description>
+			<p>This spear was crafted in a land far from here, having fallen through the Omniverse to end up in these lands.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Artillerist's Spear grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>When thrown, the item reappears in the hands of the weilder attuned to it. A copy of the spear head remains lodged where the spear landed.</li>
+				<li> As a bonus action, slamming the butt of the spear into the ground results in the copies of the spearhead to explode dealing 2d6 force damage.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Artillerist's Spear reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>The damage from the exploding spearheads increases to 3d6.</li>
+				<li>When throwing the spear, you can speak the command word to cast Conjure Barrage. If a target succeeds on the Dex throw to avoid the spear, they are not stuck with a spearhead.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="weapon">Spear</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+	</element>
+	<element name="Artillerist's Spear (Exalted)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_ARTILLERISTS_SPEAR_EXALTED">
+		<description>
+			<p>This spear was crafted in a land far from here, having fallen through the Omniverse to end up in these lands.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Artillerist's Spear grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You gain a +1 bonus to attack and damage rolls when wielding this weapon.</li>
+				<li>When thrown, the item reappears in the hands of the weilder attuned to it. A copy of the spear head remains lodged where the spear landed.</li>
+				<li> As a bonus action, slamming the butt of the spear into the ground results in the copies of the spearhead to explode dealing 2d6 force damage.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Artillerist's Spear reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+				<li>The damage from the exploding spearheads increases to 3d6.</li>
+				<li>When throwing the spear, you can speak the command word to cast Conjure Barrage. If a target succeeds on the Dex throw to avoid the spear, they are not stuck with a spearhead.</li>
+			</ul>
+			<p class="indent"><strong><em>Exalted.</em></strong> When the Artillerist's Spear reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +3.</li>
+				<li>The damage from the exploding spearheads increases to 4d6.</li>
+				<li>If an enemy has has a tie to a certain amount of element, you can use a bonus action to stab the enemy and absorb the elemental type into the spear.</li>
+				<li>The spear gains an extra d6 of elemental damage for one minute once this is used. This damage ignores resistance and immunity to the type of damage being induced.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="weapon">Spear</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
+</elements>

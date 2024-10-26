@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-weight-of-the-world.xml" url="C:\Users\amulv\Desktop\My Campaign\items-weight-of-the-world.xml" />
+		</update>
+    </info>
+
+	<element name="Weight of the World (Dormant)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_WEIGHT_OF_THE_WORLD_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>This buckler is heavier than it first appears. Those who find themselves in the possession of this magical item find that the world accomodates their path through it.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Weight of the World grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>This buckler can turn into a Light Hammer, Warhammer, or a Maul. You are considered proficient with these weapons if you are attuned to The Weight of the World</li>
+				<li>The weapon deals weapon damage as if it were large: 2d4 for the Light Hammer, 2d10 for the Warhammer, and 4d6 for the Maul.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Weight of the World (Awakened)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_WEIGHT_OF_THE_WORLD_AWAKENED">
+		<compendium display="false"/>
+		<description>
+			<p>This spear was crafted in a land far from here, having fallen through the Omniverse to end up in these lands.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Weight of the World grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>This buckler can turn into a Light Hammer, Warhammer, or a Maul. You are considered proficient with these weapons if you are attuned to The Weight of the World</li>
+				<li>The weapon deals weapon damage as if it were large: 2d4 for the Light Hammer, 2d10 for the Warhammer, and 4d6 for the Maul.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Weight of the World reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The summoned weapon's damage dice are now triple the normal amount.</li>
+				<li>The weilder can now cast Earthbind 1/day from the Weight of the World.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Weight of the World (Exalted)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_WEIGHT_OF_THE_WORLD_EXALTED">
+		<description>
+			<p>This spear was crafted in a land far from here, having fallen through the Omniverse to end up in these lands.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Weight of the World grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>This buckler can turn into a Light Hammer, Warhammer, or a Maul. You are considered proficient with these weapons if you are attuned to The Weight of the World</li>
+				<li>The weapon deals weapon damage as if it were large: 2d4 for the Light Hammer, 2d10 for the Warhammer, and 4d6 for the Maul.</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Weight of the World reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The summoned weapon's damage dice are now triple the normal amount, as if Huge. Light Hammer: 3d4, Warhammer: 3d10, Maul: 6d6.</li>
+				<li>The wielder can now cast Earthbind 1 per day from the Weight of the World.</li>
+			</ul>
+			<p class="indent"><strong><em>Exalted.</em></strong> When the Weight of the World reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The summoned weapon's damage dice is now quadrupled, as if the weapon is Gargantuan. Light Hammer: 4d4, Warhammer: 4d10, Maul: 8d6.</li>
+                <li>The wielder can now cast Stone Shape and Earthquake from the Weight of the World 1 per day.</li>
+                <li>The wielder can cast Earthbind 3 times per day.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+</elements>

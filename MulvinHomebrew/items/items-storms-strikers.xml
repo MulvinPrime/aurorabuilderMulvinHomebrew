@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-storms-strikers.xml" url="C:\Users\amulv\Desktop\My Campaign\items-storms-strikers.xml" />
+		</update>
+    </info>
+
+	<element name="Storm's Strikers (Dormant)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_STORMS_STRIKERS_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>These gauntlets were crafted in the Heart of the Elemental Plane by the Storm's Fury herself. They grant the following benefits:</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Storm's Strikers grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>Your elemental fury results in an additional d6 of damage that is based on the wearer's affinity. This also turns the wearer's weapon magical for the sake of attacks and damages.</li>
+				<li>The wearer's constitution and maximum constitution score increase by 2</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">armor</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+        <rules>
+			<stat name="constitution" value="2" />
+			<stat name="constitution:max" value="2" />
+		</rules>
+	</element>
+	<element name="Storm's Strikers (Awakened)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_STORMS_STRIKERS_AWAKENED">
+		<compendium display="false"/>
+		<description>
+			<p>These gauntlets were crafted in the Heart of the Elemental Plane by the Storm's Fury herself. They grant the following benefits:</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Storm's Strikers grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>Your elemental fury results in an additional d6 of damage that is based on the wearer's affinity. This also turns the wearer's weapon magical for the sake of attacks and damages.</li>
+				<li>The wearer's constitution and maximum constitution score increase by 2</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Storm's Strikers reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The gauntlet's bonus damage is increased to 2d6.</li>
+				<li>The wearer's strength score and maximum strength score increase by 2.</li>
+				<li>After a long rest, the wearer may chose to gain a fly, climb, or swim speed equal to their walking speed.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">armor</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+        <rules>
+			<stat name="strength" value="2" />
+			<stat name="constitution" value="2" />
+			<stat name="strength:max" value="2" />
+			<stat name="constitution:max" value="2" />
+		</rules>
+	</element>
+	<element name="Storm's Strikers (Exalted)" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_STORMS_STRIKERS_EXALTED">
+		<description>
+			<p>These gauntlets were crafted in the Heart of the Elemental Plane by the Storm's Fury herself. They grant the following benefits:</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The Storm's Strikers grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>Your elemental fury results in an additional d6 of damage that is based on the wearer's affinity. This also turns the wearer's weapon magical for the sake of attacks and damages.</li>
+				<li>The wearer's constitution and maximum constitution score increase by 2</li>
+			</ul>
+			<p class="indent"><strong><em>Awakened.</em></strong> When the Storm's Strikers reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The gauntlet's bonus damage is increased to 2d6.</li>
+				<li>The wearer's strength score and maximum strength score increase by 2.</li>
+				<li>After a long rest, the wearer may chose to gain a fly, climb, or swim speed equal to their walking speed.</li>
+			</ul>
+			<p class="indent"><strong><em>Exalted.</em></strong> When the Storm's Strikers reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The gauntlet's bonus damage is increased to 3d6.</li>
+				<li>The wearer's strength and constitution scores and their respective maximum scores increase by 4.</li>
+				<li>The wearer may chose to cast a 6th level fireball, lighting bolt, or cone of cold with the gauntlets once per long rest. The spell they can cast aligns with their elemental affinity.</li>
+                <li>The wearer no longer is affected by extreme weather.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">armor</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+        <rules>
+			<stat name="strength" value="4" />
+			<stat name="constitution" value="4" />
+			<stat name="strength:max" value="4" />
+			<stat name="constitution:max" value="4" />
+		</rules>
+	</element>
+</elements>

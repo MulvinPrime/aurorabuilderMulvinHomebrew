@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-ring-of-proper-smiting.xml" url="C:\Users\amulv\Desktop\My Campaign\items-ring-of-proper-smiting.xml" />
+		</update>
+    </info>
+
+	<element name="Ring of Proper Smiting" type="Magic Item" source="Mulvin Homebrew" id="ID_MULV_HB_MAGIC_ITEM_RING_OF_PROPER_SMITING">
+		<compendium display="false" />
+		<description>
+			<p>This ring was an attempt to mimic the power contained in one of the university's many sanctioned dungeons. While powerful, it is limited.</p>
+            <p class="indent">As an action, you can aim this ring at a creature and roll a spell attack, with a +5 to hit, and deal 5d10 radiant damage to that creature on a hit. This can be done once per long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+</elements>

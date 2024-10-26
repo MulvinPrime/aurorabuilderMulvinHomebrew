@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<update version="0.0.1">
+			<file name="items-tonnta.xml" url="C:\Users\amulv\Desktop\My Campaign\items-tonnta.xml" />
+		</update>
+    </info>
+
+    <element name="Tonnta" type="Magic Item" source="Homebrew" id="ID_MULV_HB_MAGIC_ITEM_TONNTA">
+		<description>
+			<p>The axe has 6 charges that you can use to enhance your rage. When you rage and before you roll for the wild magic effect, you can expend charges from this weapon to enhance your chaotic energies. You can expend up to 3 charges at the start of each rage. The axe regains 1d4 +1 charges on a long rest.</p>
+			<p class="indent"><strong><em>Absorb Chaos.</em></strong> When the wielder of the axe kills a creature of extreme chaos, with the axe and with CR equal to or more than half the number of max charges the axe currently, the axe absorbs some of the chaotic energy released upon its death.</p>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Magical Effect Boost</td></tr>
+				</thead>
+				<tr><td>1</td><td>The necrotic damage increases by 1d12 per charge. You also gain an additional 1d12 temp hp per charge spent.</td></tr>
+				<tr><td>2</td><td>The range of your teleportation increases by 10 ft per charge expended.</td></tr>
+				<tr><td>3</td><td>You create one additional flumph per charged expended. No more than one flumph can occupy a space at one time.</td></tr>
+				<tr><td>4</td><td>For each charge expended, your weapon gain a +1 to damage rolls and the range increase by 5/15 per charge.</td></tr>
+				<tr><td>5</td><td>For up to two charges, the damage increases by 1d6 per charge. For each charge past the second, if the attacker is within 10ft. of you, the attacker must succeed a strength saving throw, or be pushed back by 10 ft. per charge.</td></tr>
+				<tr><td>6</td><td>The protective lights grow larger and brighter. Your AC increases by +1 for every charge expended and you emit bright light for 5 ft. and dim light for an additional 5 ft. per charge. Every two rounds, at the end of your turn, the bonus decreases by 1, to a minimum of +2 (including the initial +1), as the lights begin to dim. The bright and dim light decrease by 5ft. at the same time. The bonus also applies to your allies.</td></tr>
+				<tr><td>7</td><td>The flowers and vines grow thorns that harm your enemies. For every 5ft. that a creature moves through the plants, they take 1d4 piercing damage per charge spent.</td></tr>
+				<tr><td>8</td><td>For each charge expended, the range increases by 10 ft. and you can cause one additional creature between you and the initial target to make the saving throw as well or suffer the effects.</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">greataxe, barbarian</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greataxe">Weapon</set>
+            <set name="attunement" addition="by a Path of Wild Magic Barbarian">true</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="weapon">Greataxe</set>
+			<set name="rarity">Very Rare</set>
+			<set name="name-format">Tonnta</set>
+            <set name="charges">6</set>
+            
+		</setters>
+	</element>
+</elements>
