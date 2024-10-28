@@ -54,14 +54,16 @@
 		</rules>
 	</element>
 
-    <element name="Self Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_REJUVENATING_INSPIRATION">
+    <element name="Self Inspiration" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_SELF_INSPIRATION">
 		<description>
 			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
-			<p class="indent"><b>YOU GOT THE TOUCH!  </b>You now can Inspire yourself.</p>
-            <p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+			<p class="indent"><b>YOU GOT THE TOUCH! </b>You now can Inspire yourself.</p>
+            		<p class="indent"><b>An Inspiration to us All. </b>You gain an additional Bardic Inspiration Charge</p>
+			<p class="indent"><b>I AM THE HYPE. </b>You can bardically inspire someone after an Action that deals damage.</p>
 		</description>		
 		<sheet>
 			<description>You can Bardically Inspire yourself.</description>
+			<description>You can bardically inspire someone after an Action that deals damage.</description>
 		</sheet>
 		<rules>
             <stat name="bardic-inspiration:count" value="1"/>
