@@ -23,7 +23,7 @@
 	<element name="Rage of the Storm Goddess" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_RAGE_OF_THE_STORM_GODDESS">
 		<description>
 			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
-			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher).</p>
+			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher or 9th level).</p>
 		</description>		
 		<sheet>
 			<description>When activating your Rage effect, you can upcast the spells using Rage charges (to a maximum of 3).</description>
