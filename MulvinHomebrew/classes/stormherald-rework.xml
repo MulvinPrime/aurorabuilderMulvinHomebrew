@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Storm Herald</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/classes/stormherald-rework.xml" />
         </update>
     </info>
@@ -61,7 +61,6 @@
             <stat name="storm aura:desert:burning hands" value="1" level="15" />
             <stat name="storm aura:desert:burning hands" value="1" level="20" />
             <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
-            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" />
         </rules>
     </element>
     <element name="Sea" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_STORM_HERALD_STORM_AURA_SEA">
@@ -79,7 +78,6 @@
             <stat name="storm aura:sea:witch bolt" value="1" level="15" />
             <stat name="storm aura:sea:witch bolt" value="1" level="20" />
             <grant type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
-            <grant type="Spell" id="ID_PHB_SPELL_CHAIN_LIGHTNING" />
         </rules>
     </element>
     <element name="Tundra" type="Archetype Feature" source="Mulvin Homebrew" id="ID_MULV_HB_ARCHETYPE_FEATURE_STORM_HERALD_STORM_AURA_TUNDRA">
@@ -97,7 +95,6 @@
             <stat name="storm aura:tundra:aaa" value="1" level="15" />
             <stat name="storm aura:tundra:aaa" value="1" level="20" />
             <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
-            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_ICE" />
         </rules>
     </element>
 
