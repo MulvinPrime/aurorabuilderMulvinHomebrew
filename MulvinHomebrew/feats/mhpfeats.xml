@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Mulvin Homebrew Kara Feats</name>
+		<name>Mulvin Homebrew Peyton Feats</name>
 		<update version="0.0.1">
 			<file name="mhpfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/feats/mhpfeats.xml" />
 		</update>
@@ -15,6 +15,9 @@
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
 			<description>As a bonus action, you can deal 3d6 damage of the same type as your elemental source.</description>
 		</sheet>
+		<rules>
+			<grant type="Research Track Reward" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS">
+		</rules>
 	</element>
 
 	<element name="Rage of the Storm Goddess" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_RAGE_OF_THE_STORM_GODDESS">
@@ -25,5 +28,8 @@
 		<sheet>
 			<description>When activating your Rage effect, you can upcast the spells using Rage charges (to a maximum of 3).</description>
 		</sheet>
+		<rules>
+			
+		</rules>
 	</element>
 </elements>
