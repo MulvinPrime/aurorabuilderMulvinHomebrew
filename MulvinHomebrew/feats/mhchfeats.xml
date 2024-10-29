@@ -52,6 +52,7 @@
 		</description>		
 		<sheet action = "Action" usage="1/Long Rest">
 			<description>You can cast Teleport and Plane Shift.</description>
+			<description>You now double the range on all Teleportation spells.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_TELEPORT" />
