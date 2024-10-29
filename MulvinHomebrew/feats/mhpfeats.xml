@@ -23,17 +23,18 @@
 	<element name="Rage of the Storm Goddess" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_RAGE_OF_THE_STORM_GODDESS">
 		<description>
 			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
-			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher or 9th level).</p>
+			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher).</p>
 		</description>		
 		<sheet>
 			<description>When activating your Rage effect, you can upcast the spells using Rage charges (to a maximum of 3).</description>
 		</sheet>
 	</element>
 
-	<element name="Scion of the Elements" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_SCION_OF_THE_ELEMENTS">
+	<element name="Scion of the Elements (Desert)" type="Feat" source="Mulvin Homebrew" id="ID_MULV_HB_FEAT_SCION_OF_THE_ELEMENTS_DESERT">
+		<prerequisite>ID_MULV_HB_ARCHETYPE_FEATURE_STORM_HERALD_STORM_AURA_DESERT</prerequisite>
 		<description>
 			<p>You've put in the effort to expand your magical abilites in the following ways:</p>
-			<p class="indent"><b>May She Strike your Enemies. </b>The Raging Storm sees your will, and gives you her favor. When activating your Rage ability, you can use extra rage charges to increase the level of the spell you cast at a rate of 1 charge/level (up to a max of 3 levels higher or 9th level).</p>
+			<p class="indent"><b>The Fury of the Sands. </b>You can cast Delayed Blast Fireball as an 8th Level spell, concentrating on it </p>
 		</description>		
 		<sheet>
 			<description>When activating your Rage effect, you can upcast the spells using Rage charges (to a maximum of 3).</description>
