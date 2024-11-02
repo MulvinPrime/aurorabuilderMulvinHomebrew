@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Storm Herald</name>
-        <update version="0.0.4">
-            <file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/MulvinHomebrew/aurorabuilderMulvinHomebrew/classes/stormherald-rework.xml" />
+        <update version="0.0.5">
+            <file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/classes/stormherald-rework.xml" />
         </update>
     </info>
 	
