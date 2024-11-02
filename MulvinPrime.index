@@ -7,21 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/stormherald-rework.xml" />
-		<file name="warlock-outsider.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/warlock-outsider.xml"/>
-		<file name="wizard-of-the-citadel2014.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/wizard-of-the-citadel2014.xml"/>
-		<file name="mhcfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/feats/mhcfeats.xml" />
-		<file name="mhchfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/feats/mhchfeats.xml" />
-		<file name="mhkfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/feats/mhkfeats.xml" />
-		<file name="mhpfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/feats/mhpfeats.xml" />
-		<file name="items-artillerists-spear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/aurorabuilderMulvinHomebrew/master/MulvinHomebrew/items/items-artillerists-spear.xml" />
-		<file name="items-ascendants-judgement.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-ascendants-judgement.xml" />
-		<file name="items-packmulessaddlebag.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-pack-mules-saddlebag.xml" />
-		<file name="items-ring-of-proper-smiting.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-ring-of-proper-smiting.xml" />
-		<file name="items-tonnta.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-tonnta.xml" />
-		<file name="items-of-ogma.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-of-ogma.xml" />
-		<file name="items-plasmatongue.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-plasmatongue.xml" />
-		<file name="items-storms-strikers.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-storms-strikers.xml" />
-		<file name="items-weight-of-the-world.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/items/items-weight-of-the-world.xml" />
+		
 	</files>
 </index>
