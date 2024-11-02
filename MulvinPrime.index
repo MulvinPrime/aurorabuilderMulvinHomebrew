@@ -2,11 +2,11 @@
 <index>
 	<info>
 		<name>MulvinPrime's</name>
-		<update version="1.0.9">
-			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com//MulvinPrime/aurorabuilderMulvinHomebrew/blob/master/MulvinPrime.index" />
+		<update version="1.1.0">
+			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinPrime.index" />
 		</update>
 	</info>
 	<files>
-		<file name="stormherald-rework.xml" url="https://raw.github.com/MulvinPrime/aurorabuilderMulvinHomebrew/blob/master/MulvinPrime.index" />
+		<file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/classes/stormherald-rework.xml" />
 	</files>
 </index>
