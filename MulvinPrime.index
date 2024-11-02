@@ -2,12 +2,12 @@
 <index>
 	<info>
 		<name>MulvinPrime's</name>
-		<update version="1.0.6">
+		<update version="1.0.7">
 			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/MulvinPrime.index" />
 		</update>
 	</info>
 	<files>
-		<file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/MulvinHomebrew/aurorabuilderMulvinHomebrew/classes/stormherald-rework.xml" />
+		<file name="stormherald-rework.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/stormherald-rework.xml" />
 		<file name="warlock-outsider.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/warlock-outsider.xml"/>
 		<file name="wizard-of-the-citadel2014.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/classes/wizard-of-the-citadel2014.xml"/>
 		<file name="mhcfeats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/aurorabuilderMulvinHomebrew/MulvinHomebrew/feats/mhcfeats.xml" />
