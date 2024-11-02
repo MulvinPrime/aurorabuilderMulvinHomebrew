@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<update version="0.0.1">
-			<file name="items-ring-of-proper-smiting.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-ring-of-proper-smiting.xml" />
+			<file name="items-ring-of-proper-smiting.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/items/items-ring-of-proper-smiting.xml" />
 		</update>
     </info>
 
