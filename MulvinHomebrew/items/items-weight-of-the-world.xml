@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-		<update version="0.0.1">
-			<file name="items-weight-of-the-world.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/MulvinHomebrew/items/items-weight-of-the-world.xml" />
+		<update version="0.0.2">
+			<file name="items-weight-of-the-world.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/items/items-weight-of-the-world.xml" />
 		</update>
     </info>
 
