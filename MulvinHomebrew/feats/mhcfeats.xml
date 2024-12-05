@@ -18,6 +18,7 @@
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" />
+		</rules>
             <stat name="bardic-inspiration:count" value="1"/>
 		</rules>
 	</element>
