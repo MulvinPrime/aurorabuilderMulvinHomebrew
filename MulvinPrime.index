@@ -2,8 +2,8 @@
 <index>
 	<info>
 		<name>MulvinPrime's</name>
-		<update version="1.1.4">
-			<file name="MulvinPrime.index" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinPrime.index" />
+		<update version="1.1.5">
+			<file name="MulvinPrime.index" url="raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinPrime.index" />
 		</update>
 	</info>
 	<files>
