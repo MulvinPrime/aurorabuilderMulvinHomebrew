@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Mulvin Homebrew Peyton Feats</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="mhpfeats.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/feats/mhpfeats.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 			<description>As a bonus action, you can deal 3d6 damage of the same type as your elemental source.</description>
 		</sheet>
 		<rules>
-			<grant type="Research Track Reward" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS">
+			<grant type="Research Track Reward" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS" />
 		</rules>
 	</element>
 
