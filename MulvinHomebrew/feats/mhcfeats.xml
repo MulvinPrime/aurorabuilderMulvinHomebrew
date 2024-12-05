@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Mulvin Homebrew Cross Feats</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="mhcfeats.xml" url="https://raw.githubusercontent.com/MulvinPrime/aurorabuilderMulvinHomebrew/refs/heads/master/MulvinHomebrew/feats/mhcfeats.xml" />
 		</update>
 	</info>
